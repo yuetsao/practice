@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf1c6eb-b20f-4221-9600-31191207edc1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,16 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Bath.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Bath.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Chess.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -46,6 +43,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/SprinklerSystem.java" />
         <option value="$PROJECT_DIR$/src/Bath.java" />
+        <option value="$PROJECT_DIR$/src/Detergent.java" />
+        <option value="$PROJECT_DIR$/src/Chess.java" />
       </list>
     </option>
   </component>
@@ -58,7 +57,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -69,6 +68,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,9 +86,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,7 +114,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SprinklerSystem">
+  <component name="RunManager" selected="Application.Chess">
+    <configuration name="Chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chess" />
+      <module name="practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="Mugs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mugs" />
       <module name="practice" />
@@ -170,9 +174,11 @@
     <list>
       <item itemvalue="Application.Mugs" />
       <item itemvalue="Application.SprinklerSystem" />
+      <item itemvalue="Application.Chess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chess" />
         <item itemvalue="Application.SprinklerSystem" />
         <item itemvalue="Application.Mugs" />
       </list>
@@ -188,7 +194,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532679327385</updated>
-      <workItem from="1532679331028" duration="4455000" />
+      <workItem from="1532679331028" duration="4728000" />
+      <workItem from="1532911481927" duration="1337000" />
     </task>
     <task id="LOCAL-00001" summary="2018/07/27练习代码">
       <created>1532680980767</created>
@@ -204,44 +211,58 @@
       <option name="project" value="LOCAL" />
       <updated>1532684626517</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="对象初始化示例">
+      <created>1532685569278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532685569278</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jicheng示例">
+      <created>1532685808158</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532685808158</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4455000" />
+    <option name="totallyTimeSpent" value="6065000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29752067" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29752067" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,9 +273,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2018/07/27练习代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018/07/27练习代码" />
+    <MESSAGE value="对象初始化示例" />
+    <MESSAGE value="jicheng示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="jicheng示例" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Detergent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Mugs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -295,6 +337,32 @@
             <element signature="e#149#150#0" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Detergent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
