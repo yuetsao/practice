@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf1c6eb-b20f-4221-9600-31191207edc1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +17,12 @@
       <file leaf-file-name="Chess.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="299">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#30#31#0" expanded="true" />
+                <element signature="e#66#67#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1532679327385</updated>
       <workItem from="1532679331028" duration="4728000" />
-      <workItem from="1532911481927" duration="1337000" />
+      <workItem from="1532911481927" duration="1631000" />
     </task>
     <task id="LOCAL-00001" summary="2018/07/27练习代码">
       <created>1532680980767</created>
@@ -225,11 +227,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532685808158</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="带参数的构造器必须用super显式调用">
+      <created>1532913880165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532913880166</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6065000" />
+    <option name="totallyTimeSpent" value="6359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -237,6 +246,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -244,11 +254,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29752067" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29752067" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -262,7 +272,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +284,8 @@
     <MESSAGE value="2018/07/27练习代码" />
     <MESSAGE value="对象初始化示例" />
     <MESSAGE value="jicheng示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="jicheng示例" />
+    <MESSAGE value="带参数的构造器必须用super显式调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="带参数的构造器必须用super显式调用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Detergent.java">
@@ -361,8 +371,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#30#31#0" expanded="true" />
+            <element signature="e#66#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
