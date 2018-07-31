@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf1c6eb-b20f-4221-9600-31191207edc1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReferenceCounting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CovariantReturn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrivateOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrivateOverride.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,34 +16,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FieldAccess.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FieldAccess.java">
+      <file leaf-file-name="CovariantReturn.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CovariantReturn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="667">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
+                <element signature="e#44#45#0" expanded="true" />
                 <element signature="e#68#69#0" expanded="true" />
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReferenceCounting.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ReferenceCounting.java">
+      <file leaf-file-name="PrivateOverride.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PrivateOverride.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-              <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -79,9 +76,10 @@
         <option value="$PROJECT_DIR$/src/polymophism/RandShapeGenerator.java" />
         <option value="$PROJECT_DIR$/src/polymophism/Shapes.java" />
         <option value="$PROJECT_DIR$/src/Music.java" />
-        <option value="$PROJECT_DIR$/src/PrivateOverride.java" />
         <option value="$PROJECT_DIR$/src/FieldAccess.java" />
         <option value="$PROJECT_DIR$/src/ReferenceCounting.java" />
+        <option value="$PROJECT_DIR$/src/PrivateOverride.java" />
+        <option value="$PROJECT_DIR$/src/CovariantReturn.java" />
       </list>
     </option>
   </component>
@@ -120,6 +118,18 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="polymophism" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Bath.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -151,14 +161,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReferenceCounting">
-    <configuration name="FieldAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FieldAccess" />
+  <component name="RunManager" selected="Application.CovariantReturn">
+    <configuration name="CovariantReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CovariantReturn" />
       <module name="practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Orc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Orc" />
+    <configuration name="FieldAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FieldAccess" />
       <module name="practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -225,19 +235,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Orc" />
       <item itemvalue="Application.Shapes" />
       <item itemvalue="Application.PrivateOverride" />
       <item itemvalue="Application.FieldAccess" />
       <item itemvalue="Application.ReferenceCounting" />
+      <item itemvalue="Application.CovariantReturn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CovariantReturn" />
         <item itemvalue="Application.ReferenceCounting" />
         <item itemvalue="Application.FieldAccess" />
         <item itemvalue="Application.PrivateOverride" />
         <item itemvalue="Application.Shapes" />
-        <item itemvalue="Application.Orc" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +263,7 @@
       <updated>1532679327385</updated>
       <workItem from="1532679331028" duration="4728000" />
       <workItem from="1532911481927" duration="11620000" />
-      <workItem from="1532998776969" duration="7019000" />
+      <workItem from="1532998776969" duration="9342000" />
     </task>
     <task id="LOCAL-00001" summary="2018/07/27练习代码">
       <created>1532680980767</created>
@@ -353,14 +363,22 @@
       <option name="project" value="LOCAL" />
       <updated>1533005335140</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="引用计数析构">
+      <created>1533021041465</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1533021041465</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23367000" />
+    <option name="totallyTimeSpent" value="25690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -372,11 +390,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3140496" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3140496" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,10 +414,10 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3140496" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3140496" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -411,7 +429,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -441,7 +459,8 @@
     <MESSAGE value="show ploymohpism" />
     <MESSAGE value="测试多态" />
     <MESSAGE value="域与多态" />
-    <option name="LAST_COMMIT_MESSAGE" value="域与多态" />
+    <MESSAGE value="引用计数析构" />
+    <option name="LAST_COMMIT_MESSAGE" value="引用计数析构" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/polymophism/Shape.java">
@@ -668,17 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrivateOverride.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FieldAccess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -694,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReferenceCounting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        <state relative-caret-position="210">
+          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
           <folding>
             <element signature="e#144#145#0" expanded="true" />
             <element signature="e#180#181#0" expanded="true" />
@@ -703,6 +711,30 @@
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrivateOverride.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CovariantReturn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#44#45#0" expanded="true" />
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
