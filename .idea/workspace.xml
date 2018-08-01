@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf1c6eb-b20f-4221-9600-31191207edc1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Adventure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HorrorShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,22 +15,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Adventure.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Adventure.java">
+      <file leaf-file-name="HorrorShow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HorrorShow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="158">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,6 +69,7 @@
         <option value="$PROJECT_DIR$/src/Transmogrify.java" />
         <option value="$PROJECT_DIR$/src/Apply.java" />
         <option value="$PROJECT_DIR$/src/Adventure.java" />
+        <option value="$PROJECT_DIR$/src/HorrorShow.java" />
       </list>
     </option>
   </component>
@@ -241,7 +236,7 @@
       <workItem from="1532679331028" duration="4728000" />
       <workItem from="1532911481927" duration="11620000" />
       <workItem from="1532998776969" duration="12231000" />
-      <workItem from="1533084771055" duration="6515000" />
+      <workItem from="1533084771055" duration="8327000" />
     </task>
     <task id="LOCAL-00001" summary="2018/07/27练习代码">
       <created>1532680980767</created>
@@ -369,11 +364,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533088831045</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="继承与实现">
+      <created>1533101534526</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1533101534526</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35094000" />
+    <option name="totallyTimeSpent" value="36906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -389,11 +391,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3140496" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3140496" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -462,7 +464,8 @@
     <MESSAGE value="协变返回类型" />
     <MESSAGE value="继承的应用" />
     <MESSAGE value="策略设计模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="策略设计模式" />
+    <MESSAGE value="继承与实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="继承与实现" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Transmogrify.java">
@@ -749,19 +752,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Adventure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="161">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
             <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HorrorShow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
           </folding>
         </state>
       </provider>
