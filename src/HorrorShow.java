@@ -17,7 +17,6 @@ class VeryBadVampire implements Vampire {
     public void drinkBlood() {}
 }
 
-
 public class HorrorShow {
     static void u(Monster b) {
         b.menace();
