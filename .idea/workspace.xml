@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf1c6eb-b20f-4221-9600-31191207edc1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DotThis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,22 +15,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Sequence.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Sequence.java">
+      <file leaf-file-name="DotThis.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DotThis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="345">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#37#38#0" expanded="true" />
+                <element signature="e#73#74#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/RandomWords.java" />
         <option value="$PROJECT_DIR$/src/Parcel.java" />
         <option value="$PROJECT_DIR$/src/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/DotThis.java" />
       </list>
     </option>
   </component>
@@ -155,9 +152,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sequence">
-    <configuration name="Adventure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Adventure" />
+  <component name="RunManager" selected="Application.DotThis">
+    <configuration name="DotThis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DotThis" />
       <module name="practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -223,19 +220,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Adventure" />
       <item itemvalue="Application.HorrorShow" />
       <item itemvalue="Application.RandomWords" />
       <item itemvalue="Application.Parcel" />
       <item itemvalue="Application.Sequence" />
+      <item itemvalue="Application.DotThis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DotThis" />
         <item itemvalue="Application.Sequence" />
         <item itemvalue="Application.Parcel" />
         <item itemvalue="Application.RandomWords" />
         <item itemvalue="Application.HorrorShow" />
-        <item itemvalue="Application.Adventure" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +250,7 @@
       <workItem from="1532911481927" duration="11620000" />
       <workItem from="1532998776969" duration="12231000" />
       <workItem from="1533084771055" duration="15221000" />
-      <workItem from="1533172850046" duration="5775000" />
+      <workItem from="1533172850046" duration="7348000" />
     </task>
     <task id="LOCAL-00001" summary="2018/07/27练习代码">
       <created>1532680980767</created>
@@ -416,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533190690104</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="内部类应用实例">
+      <created>1533199969159</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1533199969159</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49575000" />
+    <option name="totallyTimeSpent" value="51148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -440,7 +444,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -514,7 +518,8 @@
     <MESSAGE value="实现接口时名字冲突问题" />
     <MESSAGE value="Readable" />
     <MESSAGE value="内部类示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="内部类示例" />
+    <MESSAGE value="内部类应用实例" />
+    <option name="LAST_COMMIT_MESSAGE" value="内部类应用实例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -628,6 +633,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -840,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="345">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="e#190#191#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
@@ -853,6 +862,21 @@
             <element signature="e#645#646#0" expanded="true" />
             <element signature="e#686#687#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DotThis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#37#38#0" expanded="true" />
+            <element signature="e#73#74#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
