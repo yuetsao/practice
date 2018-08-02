@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf1c6eb-b20f-4221-9600-31191207edc1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Parcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,18 +15,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Parcel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Parcel.java">
+      <file leaf-file-name="Sequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="828">
+              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
               <folding>
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/HorrorShow.java" />
         <option value="$PROJECT_DIR$/src/RandomWords.java" />
         <option value="$PROJECT_DIR$/src/Parcel.java" />
+        <option value="$PROJECT_DIR$/src/Sequence.java" />
       </list>
     </option>
   </component>
@@ -150,14 +155,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Parcel">
+  <component name="RunManager" selected="Application.Sequence">
     <configuration name="Adventure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Adventure" />
-      <module name="practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Apply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Apply" />
       <module name="practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -173,6 +173,11 @@
     </configuration>
     <configuration name="RandomWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RandomWords" />
+      <module name="practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sequence" />
       <module name="practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -218,19 +223,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Apply" />
       <item itemvalue="Application.Adventure" />
       <item itemvalue="Application.HorrorShow" />
       <item itemvalue="Application.RandomWords" />
       <item itemvalue="Application.Parcel" />
+      <item itemvalue="Application.Sequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sequence" />
         <item itemvalue="Application.Parcel" />
         <item itemvalue="Application.RandomWords" />
         <item itemvalue="Application.HorrorShow" />
         <item itemvalue="Application.Adventure" />
-        <item itemvalue="Application.Apply" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +253,7 @@
       <workItem from="1532911481927" duration="11620000" />
       <workItem from="1532998776969" duration="12231000" />
       <workItem from="1533084771055" duration="15221000" />
-      <workItem from="1533172850046" duration="3357000" />
+      <workItem from="1533172850046" duration="5775000" />
     </task>
     <task id="LOCAL-00001" summary="2018/07/27练习代码">
       <created>1532680980767</created>
@@ -404,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533116792531</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="内部类示例">
+      <created>1533190690104</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1533190690104</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47157000" />
+    <option name="totallyTimeSpent" value="49575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -424,11 +436,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3140496" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3140496" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26096824" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -445,31 +457,31 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3140496" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -501,7 +513,8 @@
     <MESSAGE value="接口继承接口" />
     <MESSAGE value="实现接口时名字冲突问题" />
     <MESSAGE value="Readable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readable" />
+    <MESSAGE value="内部类示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="内部类示例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -821,6 +834,25 @@
             <element signature="e#267#268#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
             <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
           </folding>
         </state>
       </provider>
