@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/yuetsao/innertest/CallBacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colections/GenericsAndUpcasting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,55 +18,44 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="42" />
-          <entry key="java" value="1821" />
-          <entry key="txt" value="61" />
+          <entry key="java" value="2085" />
+          <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1821" />
-          <entry key="PLAIN_TEXT" value="103" />
+          <entry key="JAVA" value="2085" />
+          <entry key="PLAIN_TEXT" value="106" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yuetsao/innertest/CallBacks.java">
+        <entry file="file://$PROJECT_DIR$/src/colections/GenericsAndUpcasting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="22">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <element signature="e#80#81#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#336#343#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/com/yuetsao/innertest/AnonymousConstructor.java" />
         <option value="$PROJECT_DIR$/src/com/yuetsao/innertest/Parcel10.java" />
         <option value="$PROJECT_DIR$/src/com/yuetsao/innertest/CallBacks.java" />
+        <option value="$PROJECT_DIR$/src/colections/GenericsAndUpcasting.java" />
       </list>
     </option>
   </component>
@@ -130,27 +120,21 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="innertest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Parcel7.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534751757293" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535449762345" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -168,13 +152,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Parcel10">
+  <component name="RunManager" selected="Application.GenericsAndUpcasting">
     <configuration name="AnonymousConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuetsao.innertest.AnonymousConstructor" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yuetsao.innertest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericsAndUpcasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colections.GenericsAndUpcasting" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="colections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,9 +217,11 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.AnonymousConstructor" />
       <item itemvalue="Application.Parcel10" />
+      <item itemvalue="Application.GenericsAndUpcasting" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericsAndUpcasting" />
         <item itemvalue="Application.Parcel10" />
         <item itemvalue="Application.AnonymousConstructor" />
         <item itemvalue="Application.Parcel7" />
@@ -242,6 +241,7 @@
       <updated>1534314871000</updated>
       <workItem from="1534314872458" duration="6463000" />
       <workItem from="1534733481953" duration="2308000" />
+      <workItem from="1535449277493" duration="482000" />
     </task>
     <task id="LOCAL-00001" summary="内部类">
       <created>1534318883192</created>
@@ -264,17 +264,24 @@
       <option name="project" value="LOCAL" />
       <updated>1534325725690</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="内部类">
+      <created>1535449329008</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535449329008</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8771000" />
+    <option name="totallyTimeSpent" value="9253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,10 +318,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="内部类" />
     <MESSAGE value="如果不在内部类使用变量，可以不声明为final的" />
     <MESSAGE value="如果内部类使用的变量要声明为final" />
-    <option name="LAST_COMMIT_MESSAGE" value="如果内部类使用的变量要声明为final" />
+    <MESSAGE value="内部类" />
+    <option name="LAST_COMMIT_MESSAGE" value="内部类" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Parcel7.java">
@@ -360,21 +367,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yuetsao/innertest/CallBacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="352">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
             <element signature="e#653#654#0" expanded="true" />
             <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/colections/GenericsAndUpcasting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#336#343#0" expanded="true" />
           </folding>
         </state>
       </provider>
