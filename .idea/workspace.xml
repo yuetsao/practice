@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/LambdaTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/LambdaTest03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/LambdaThread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,25 +65,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="7155" />
-          <entry key="txt" value="32" />
+          <entry key="java" value="7458" />
+          <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7155" />
-          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="JAVA" value="7458" />
+          <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
     </session>
@@ -93,14 +91,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thread/LambdaTest03.java">
+        <entry file="file://$PROJECT_DIR$/src/thread/LambdaThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
-              <folding>
-                <element signature="e#88#89#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="254">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -152,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/thread/LambdaTest01.java" />
         <option value="$PROJECT_DIR$/src/thread/LambdaTest02.java" />
         <option value="$PROJECT_DIR$/src/thread/LambdaTest03.java" />
+        <option value="$PROJECT_DIR$/src/thread/LambdaThread.java" />
       </list>
     </option>
   </component>
@@ -200,7 +195,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544432756124" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544433417964" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pj_ec_fin_auto_loan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -221,20 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaTest03">
-    <configuration name="CRacer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.CRacer" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LambdaThread">
     <configuration name="LambdaTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.LambdaTest01" />
       <module name="practice" />
@@ -274,6 +256,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LambdaThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.LambdaThread" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.TestLambda" />
       <module name="practice" />
@@ -288,19 +283,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CRacer" />
       <item itemvalue="Application.TestLambda" />
       <item itemvalue="Application.LambdaTest01" />
       <item itemvalue="Application.LambdaTest02" />
       <item itemvalue="Application.LambdaTest03" />
+      <item itemvalue="Application.LambdaThread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaThread" />
         <item itemvalue="Application.LambdaTest03" />
         <item itemvalue="Application.LambdaTest02" />
         <item itemvalue="Application.LambdaTest01" />
         <item itemvalue="Application.TestLambda" />
-        <item itemvalue="Application.CRacer" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +325,7 @@
       <workItem from="1543902548010" duration="2184000" />
       <workItem from="1544077926558" duration="274000" />
       <workItem from="1544100382679" duration="6922000" />
-      <workItem from="1544403574052" duration="6368000" />
+      <workItem from="1544403574052" duration="7064000" />
     </task>
     <task id="LOCAL-00001" summary="内部类">
       <created>1534318883192</created>
@@ -437,11 +432,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544431997381</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="lambda">
+      <created>1544432771359</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1544432771359</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49274000" />
+    <option name="totallyTimeSpent" value="49970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
@@ -465,7 +467,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32840723" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32827586" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32777777" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -495,7 +497,8 @@
     <MESSAGE value="龟兔赛跑" />
     <MESSAGE value="testlambda" />
     <MESSAGE value="io" />
-    <option name="LAST_COMMIT_MESSAGE" value="io" />
+    <MESSAGE value="lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -770,12 +773,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/LambdaTest03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
-          <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/LambdaThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
         </state>
       </provider>
     </entry>
