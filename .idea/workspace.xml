@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/LambdaThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/StaticProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,24 +66,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="27" />
+          <entry key="java" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="7458" />
+          <entry key="java" value="7796" />
           <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7458" />
+          <entry key="JAVA" value="7796" />
           <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
@@ -91,10 +92,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thread/LambdaThread.java">
+        <entry file="file://$PROJECT_DIR$/src/thread/StaticProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+            <state relative-caret-position="60">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/thread/LambdaTest02.java" />
         <option value="$PROJECT_DIR$/src/thread/LambdaTest03.java" />
         <option value="$PROJECT_DIR$/src/thread/LambdaThread.java" />
+        <option value="$PROJECT_DIR$/src/thread/StaticProxy.java" />
       </list>
     </option>
   </component>
@@ -195,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544433417964" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544434437721" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pj_ec_fin_auto_loan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -216,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaThread">
+  <component name="RunManager" selected="Application.StaticProxy">
     <configuration name="LambdaTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.LambdaTest01" />
       <module name="practice" />
@@ -269,8 +283,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.TestLambda" />
+    <configuration name="StaticProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.StaticProxy" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -283,19 +297,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestLambda" />
       <item itemvalue="Application.LambdaTest01" />
       <item itemvalue="Application.LambdaTest02" />
       <item itemvalue="Application.LambdaTest03" />
       <item itemvalue="Application.LambdaThread" />
+      <item itemvalue="Application.StaticProxy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticProxy" />
         <item itemvalue="Application.LambdaThread" />
         <item itemvalue="Application.LambdaTest03" />
         <item itemvalue="Application.LambdaTest02" />
         <item itemvalue="Application.LambdaTest01" />
-        <item itemvalue="Application.TestLambda" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +339,7 @@
       <workItem from="1543902548010" duration="2184000" />
       <workItem from="1544077926558" duration="274000" />
       <workItem from="1544100382679" duration="6922000" />
-      <workItem from="1544403574052" duration="7064000" />
+      <workItem from="1544403574052" duration="8079000" />
     </task>
     <task id="LOCAL-00001" summary="内部类">
       <created>1534318883192</created>
@@ -439,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544432771359</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="lambda">
+      <created>1544433459792</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1544433459792</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49970000" />
+    <option name="totallyTimeSpent" value="50985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
@@ -780,8 +801,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/LambdaThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        <state relative-caret-position="246">
+          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/StaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
