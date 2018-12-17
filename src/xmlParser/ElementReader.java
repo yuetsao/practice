@@ -17,5 +17,5 @@ public interface ElementReader {
 
     List<DataElement> getConstructorValue(Element element);
 
-    List<PropertyElement> getPropertyValue(Element element);
+//    List<PropertyElement> getPropertyValue(Element element);
 }

@@ -2,31 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gof23/DSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/InnerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/TestUML.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/AbstractApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/AutoWire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/BeanCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/BeanCreatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/ByNameAutoWire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/DataElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/DocumentHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/DocumentLoaderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/ElementLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/ElementReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/ElementReaderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/NoAutoWire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/RefElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/ValueElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xmlParser/XmlDoucumentHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/factorymethod/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/factorymethod/AudiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/factorymethod/Benz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/factorymethod/BenzFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/factorymethod/Byd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/factorymethod/BydFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/factorymethod/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/factorymethod/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/factorymethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/simplefactory/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/simplefactory/Byd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/simplefactory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/simplefactory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/simplefactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/simplefactory/Client2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/LambdaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/LambdaTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xmlParser/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xmlParser/AbstractApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xmlParser/BeanCreatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xmlParser/BeanCreatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xmlParser/ElementReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xmlParser/ElementReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xmlParser/ElementReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xmlParser/ElementReaderImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,14 +95,14 @@
           <entry key="JAVA/Parcel7" value="1" />
           <entry key="String" value="1" />
           <entry key="class" value="7" />
-          <entry key="java" value="71" />
+          <entry key="java" value="92" />
           <entry key="puml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="71" />
+          <entry key="JAVA" value="92" />
           <entry key="PlantUML file" value="1" />
           <entry key="UML" value="3" />
         </counts>
@@ -115,14 +110,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="12284" />
-          <entry key="txt" value="93" />
+          <entry key="java" value="12976" />
+          <entry key="txt" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12284" />
-          <entry key="PLAIN_TEXT" value="113" />
+          <entry key="JAVA" value="12976" />
+          <entry key="PLAIN_TEXT" value="115" />
         </counts>
       </usages-collector>
     </session>
@@ -130,116 +125,90 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlParser/ElementReaderImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Byd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="85" column="19" lean-forward="true" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#858#867#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlParser/ByNameAutoWire.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlParser/NoAutoWire.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlParser/DataElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="105">
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlParser/RefElement.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlParser/ValueElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlParser/BeanCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlParser/BeanCreatorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="926">
-              <caret line="228" column="43" lean-forward="true" selection-start-line="228" selection-start-column="43" selection-end-line="228" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2691#2698#0" expanded="true" />
-                <element signature="e#4736#4752#0" expanded="true" />
-                <element signature="e#5449#5457#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlParser/ApplicationContext.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Audi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/CarFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Benz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/BenzFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/AudiFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/BydFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/xmlParser/AbstractApplicationContext.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#288#304#0" expanded="true" />
-                <element signature="e#3126#3142#0" expanded="true" />
-                <element signature="e#4646#4654#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -270,20 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iotest/DirDemo01.java" />
-        <option value="$PROJECT_DIR$/src/iotest/DirDemo02.java" />
-        <option value="$PROJECT_DIR$/src/iotest/DirDemo03.java" />
-        <option value="$PROJECT_DIR$/src/iotest/Copy.java" />
-        <option value="$PROJECT_DIR$/src/com/yuetsao/innertest/AnonymousConstructor.java" />
-        <option value="$PROJECT_DIR$/src/thread/StartThread.java" />
-        <option value="$PROJECT_DIR$/src/thread/Liftoff.java" />
-        <option value="$PROJECT_DIR$/src/thread/TestSingelThreadExecutor.java" />
-        <option value="$PROJECT_DIR$/src/thread/TaskWithResult.java" />
-        <option value="$PROJECT_DIR$/src/thread/CallableDemo.java" />
-        <option value="$PROJECT_DIR$/src/thread/SimplePriorities.java" />
-        <option value="$PROJECT_DIR$/src/thread/CRacer.java" />
-        <option value="$PROJECT_DIR$/src/thread/TestLambda.java" />
-        <option value="$PROJECT_DIR$/src/thread/LambdaTest02.java" />
         <option value="$PROJECT_DIR$/src/thread/LambdaTest03.java" />
         <option value="$PROJECT_DIR$/src/thread/LambdaThread.java" />
         <option value="$PROJECT_DIR$/src/thread/StaticProxy.java" />
@@ -309,8 +264,6 @@
         <option value="$PROJECT_DIR$/src/xmlParser/XmlDoucumentHolder.java" />
         <option value="$PROJECT_DIR$/src/xmlParser/ElementLoader.java" />
         <option value="$PROJECT_DIR$/src/xmlParser/DocumentLoaderImpl.java" />
-        <option value="$PROJECT_DIR$/src/xmlParser/ElementReader.java" />
-        <option value="$PROJECT_DIR$/src/xmlParser/ElementReaderImpl.java" />
         <option value="$PROJECT_DIR$/src/xmlParser/AutoWire.java" />
         <option value="$PROJECT_DIR$/src/xmlParser/ByNameAutoWire.java" />
         <option value="$PROJECT_DIR$/src/xmlParser/NoAutoWire.java" />
@@ -318,9 +271,25 @@
         <option value="$PROJECT_DIR$/src/xmlParser/RefElement.java" />
         <option value="$PROJECT_DIR$/src/xmlParser/ValueElement.java" />
         <option value="$PROJECT_DIR$/src/xmlParser/BeanCreator.java" />
-        <option value="$PROJECT_DIR$/src/xmlParser/BeanCreatorImpl.java" />
         <option value="$PROJECT_DIR$/src/xmlParser/ApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/gof23/Car.java" />
+        <option value="$PROJECT_DIR$/src/gof23/simplefactory/Car.java" />
+        <option value="$PROJECT_DIR$/src/gof23/simplefactory/Audi.java" />
+        <option value="$PROJECT_DIR$/src/gof23/simplefactory/Byd.java" />
+        <option value="$PROJECT_DIR$/src/xmlParser/ElementReader.java" />
         <option value="$PROJECT_DIR$/src/xmlParser/AbstractApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/xmlParser/ElementReaderImpl.java" />
+        <option value="$PROJECT_DIR$/src/xmlParser/BeanCreatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/gof23/simplefactory/Client.java" />
+        <option value="$PROJECT_DIR$/src/gof23/simplefactory/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/gof23/simplefactory/Client2.java" />
+        <option value="$PROJECT_DIR$/src/gof23/factorymethod/Audi.java" />
+        <option value="$PROJECT_DIR$/src/gof23/factorymethod/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/gof23/factorymethod/AudiFactory.java" />
+        <option value="$PROJECT_DIR$/src/gof23/factorymethod/BydFactory.java" />
+        <option value="$PROJECT_DIR$/src/gof23/factorymethod/Benz.java" />
+        <option value="$PROJECT_DIR$/src/gof23/factorymethod/BenzFactory.java" />
+        <option value="$PROJECT_DIR$/src/gof23/factorymethod/Client.java" />
       </list>
     </option>
   </component>
@@ -356,6 +325,26 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gof23" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gof23" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gof23" type="462c0819:PsiDirectoryNode" />
+              <item name="simplefactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CovariantReturn.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -369,7 +358,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545027283098" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545031859053" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pj_ec_fin_auto_loan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -381,6 +370,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="thread" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/gof23/factorymethod" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -395,13 +387,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaTest01">
-    <configuration name="Joining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.Joining" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof23.factorymethod.Client" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="gof23.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof23.simplefactory.Client" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof23.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof23.simplefactory.Client2" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof23.simplefactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,46 +453,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.TestThreadLocal" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UncaughtExeceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.UncaughtExeceptionTest" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Joining" />
-      <item itemvalue="Application.UncaughtExeceptionTest" />
-      <item itemvalue="Application.TestThreadLocal" />
       <item itemvalue="Application.LambdaThread" />
       <item itemvalue="Application.LambdaTest01" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client2" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client2" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.LambdaTest01" />
         <item itemvalue="Application.LambdaThread" />
-        <item itemvalue="Application.TestThreadLocal" />
-        <item itemvalue="Application.UncaughtExeceptionTest" />
-        <item itemvalue="Application.Joining" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +502,7 @@
       <workItem from="1544685283011" duration="586000" />
       <workItem from="1544686254548" duration="3233000" />
       <workItem from="1544957915732" duration="2638000" />
-      <workItem from="1545010758474" duration="3703000" />
+      <workItem from="1545010758474" duration="6323000" />
     </task>
     <task id="LOCAL-00001" summary="内部类">
       <created>1534318883192</created>
@@ -652,16 +644,24 @@
       <option name="project" value="LOCAL" />
       <updated>1544752824553</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="练习">
+      <created>1545027313604</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1545027313605</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73551000" />
+    <option name="totallyTimeSpent" value="76171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3297568" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -670,7 +670,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33055556" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36944443" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36804566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -679,7 +679,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32840723" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32777777" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3266762" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.41944444" />
       <window_info anchor="right" id="PlantUML" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -716,7 +716,8 @@
     <MESSAGE value="静态代理" />
     <MESSAGE value="synchronized test" />
     <MESSAGE value="thread example" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread example" />
+    <MESSAGE value="练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -731,107 +732,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/thread/LambdaTest03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/StaticProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/SimplePriorities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/SimpleDaeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/Happ12306.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/SynBlock01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/Joining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/UncaughtExeceptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="140" column="12" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/OrnamentalGarden.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/practice/Actor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/practice/Apply.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/LambdaThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/practice/ExplicitStatic.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/practice/Cupboard.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -856,6 +756,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -884,6 +787,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,31 +946,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xmlParser/ElementReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xmlParser/AutoWire.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xmlParser/ElementReaderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="85" column="19" lean-forward="true" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#858#867#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1118,19 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xmlParser/BeanCreatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="926">
-          <caret line="228" column="43" lean-forward="true" selection-start-line="228" selection-start-column="43" selection-end-line="228" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2691#2698#0" expanded="true" />
-            <element signature="e#4736#4752#0" expanded="true" />
-            <element signature="e#5449#5457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xmlParser/ApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1138,16 +1011,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xmlParser/AbstractApplicationContext.java">
+    <entry file="file://$PROJECT_DIR$/src/gof23/simplefactory/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/simplefactory/Audi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/simplefactory/Byd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xmlParser/ElementReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#288#304#0" expanded="true" />
-            <element signature="e#3126#3142#0" expanded="true" />
-            <element signature="e#4646#4654#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xmlParser/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="160" column="27" lean-forward="true" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xmlParser/ElementReaderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="124" column="11" lean-forward="true" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xmlParser/BeanCreatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/simplefactory/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/simplefactory/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/simplefactory/Client2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Audi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Byd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/BydFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/AudiFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/BenzFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Benz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
