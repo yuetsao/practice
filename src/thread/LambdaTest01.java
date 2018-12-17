@@ -36,10 +36,6 @@ public class LambdaTest01 {
         };
         like.lambda();
     }
-
-
-
-
 }
 
 interface ILike {
