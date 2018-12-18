@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gof23/abstractfactory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/abstractfactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/abstractfactory/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/abstractfactory/LowCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/abstractfactory/LuxuryCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/abstractfactory/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/abstractfactory/Tyre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/builder/AirShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/builder/AirShipBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/builder/AirShipDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/builder/MyAirShipBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/builder/MyAirShipDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/prototype/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/adapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/adapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/adapter/Target.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gof23/DSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gof23/Singleton/DSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gof23/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gof23/Singleton/EnumSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gof23/InnerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gof23/Singleton/InnerSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gof23/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gof23/Singleton/LazySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gof23/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gof23/Singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gof23/TestUML.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gof23/Singleton/TestUML.puml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,14 +80,14 @@
           <entry key="JAVA/Parcel7" value="1" />
           <entry key="String" value="1" />
           <entry key="class" value="7" />
-          <entry key="java" value="110" />
+          <entry key="java" value="114" />
           <entry key="puml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="110" />
+          <entry key="JAVA" value="114" />
           <entry key="PlantUML file" value="1" />
           <entry key="UML" value="3" />
         </counts>
@@ -112,13 +95,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="15045" />
+          <entry key="java" value="15332" />
           <entry key="txt" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15045" />
+          <entry key="JAVA" value="15332" />
           <entry key="PLAIN_TEXT" value="115" />
         </counts>
       </usages-collector>
@@ -126,29 +109,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gof23/prototype/Client.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gof23/adapter/Adaptee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#85#86#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gof23/prototype/Sheep.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/adapter/Target.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+            <state relative-caret-position="45">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gof23/adapter/Adapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gof23/adapter/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,10 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/gof23/singleton.java" />
-        <option value="$PROJECT_DIR$/src/gof23/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/gof23/LazySingleton.java" />
-        <option value="$PROJECT_DIR$/src/gof23/InnerSingleton.java" />
         <option value="$PROJECT_DIR$/src/gof23/DSingleton.java" />
         <option value="$PROJECT_DIR$/src/gof23/EnumSingleton.java" />
         <option value="$PROJECT_DIR$/src/xmlParser/DocumentHolder.java" />
@@ -231,6 +230,10 @@
         <option value="$PROJECT_DIR$/src/gof23/builder/Client.java" />
         <option value="$PROJECT_DIR$/src/gof23/prototype/Sheep.java" />
         <option value="$PROJECT_DIR$/src/gof23/prototype/Client.java" />
+        <option value="$PROJECT_DIR$/src/gof23/adapter/Adaptee.java" />
+        <option value="$PROJECT_DIR$/src/gof23/adapter/Target.java" />
+        <option value="$PROJECT_DIR$/src/gof23/adapter/Client.java" />
+        <option value="$PROJECT_DIR$/src/gof23/adapter/Adapter.java" />
       </list>
     </option>
   </component>
@@ -272,13 +275,6 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gof23" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CovariantReturn.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -292,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545103225969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545113389432" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pj_ec_fin_auto_loan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -324,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (4)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gof23.factorymethod.Client" />
       <module name="practice" />
@@ -377,12 +373,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof23.simplefactory.Client2" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof23.adapter.Client" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gof23.simplefactory.*" />
+          <option name="PATTERN" value="gof23.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,19 +387,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client2" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client (4)" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client2" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +435,7 @@
       <workItem from="1544685283011" duration="586000" />
       <workItem from="1544686254548" duration="3233000" />
       <workItem from="1544957915732" duration="2638000" />
-      <workItem from="1545010758474" duration="14735000" />
+      <workItem from="1545010758474" duration="16438000" />
     </task>
     <task id="LOCAL-00001" summary="内部类">
       <created>1534318883192</created>
@@ -602,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545032961279</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="练习">
+      <created>1545103245320</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1545103245320</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84583000" />
+    <option name="totallyTimeSpent" value="86286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
@@ -715,34 +718,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gof23/Singleton/TestUML.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/Singleton/DSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/Singleton/EnumSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xmlParser/DocumentHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/dom4j-2.1.1.jar!/org/dom4j/io/SAXReader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1170,6 +1145,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/prototype/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/gof23/prototype/Sheep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1184,12 +1169,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/prototype/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/gof23/adapter/Adaptee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/adapter/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/adapter/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/adapter/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
           </folding>
         </state>
       </provider>
