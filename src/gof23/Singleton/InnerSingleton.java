@@ -1,4 +1,4 @@
-package gof23;
+package gof23.Singleton;
 
 /**
  * 静态内部类实现单例模式

@@ -1,4 +1,4 @@
-package gof23;
+package gof23.Singleton;
 
 /**
  * 调用效率高

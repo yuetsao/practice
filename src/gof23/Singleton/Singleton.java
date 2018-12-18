@@ -1,4 +1,4 @@
-package gof23;
+package gof23.Singleton;
 
 /**
  * 测试恶汉式的单例模式

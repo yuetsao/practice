@@ -1,4 +1,4 @@
-package gof23;
+package gof23.Singleton;
 
 public class LazySingleton {
     private static LazySingleton s;

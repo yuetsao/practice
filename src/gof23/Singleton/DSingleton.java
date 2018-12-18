@@ -1,4 +1,4 @@
-package gof23;
+package gof23.Singleton;
 
 public class DSingleton {
     private volatile static DSingleton dSingleton;
