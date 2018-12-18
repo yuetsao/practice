@@ -5,9 +5,17 @@ public abstract class Computer2 {
 
     public Computer2(Brand brand) {
         this.brand = brand;
+        try {
+            Object obj;
+            super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
     }
     public void sale() {
         brand.sale();
     }
+
+
 }
 
