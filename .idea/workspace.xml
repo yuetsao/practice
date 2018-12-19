@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gof23/observer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/observer/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/observer/ObserverA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/javaseobserver/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/javaseobserver/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/javaseobserver/ObserverA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -81,7 +79,7 @@
           <entry key="JAVA/Parcel7" value="1" />
           <entry key="String" value="1" />
           <entry key="class" value="7" />
-          <entry key="java" value="180" />
+          <entry key="java" value="184" />
           <entry key="puml" value="1" />
           <entry key="umr" value="1" />
         </counts>
@@ -89,7 +87,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="180" />
+          <entry key="JAVA" value="184" />
           <entry key="PlantUML file" value="2" />
           <entry key="UML" value="3" />
         </counts>
@@ -97,14 +95,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="20603" />
-          <entry key="txt" value="176" />
+          <entry key="java" value="20936" />
+          <entry key="txt" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20603" />
-          <entry key="PLAIN_TEXT" value="196" />
+          <entry key="JAVA" value="20936" />
+          <entry key="PLAIN_TEXT" value="205" />
         </counts>
       </usages-collector>
     </session>
@@ -112,64 +110,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gof23/observer/Observer.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/javaseobserver/ConcreteSubject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gof23/observer/ObserverA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="210">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gof23/observer/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gof23/observer/ConcreteSubject.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/javaseobserver/ObserverA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gof23/observer/Subject.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/javaseobserver/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/Observable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -201,9 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/gof23/composite/Compoent.java" />
-        <option value="$PROJECT_DIR$/src/gof23/bridge/Desktop.java" />
-        <option value="$PROJECT_DIR$/src/gof23/bridge/Client.java" />
         <option value="$PROJECT_DIR$/src/gof23/bridge/Computer2.java" />
         <option value="$PROJECT_DIR$/src/Base.java" />
         <option value="$PROJECT_DIR$/src/gof23/composite/AbstractFile.java" />
@@ -252,6 +234,9 @@
         <option value="$PROJECT_DIR$/src/gof23/observer/Observer.java" />
         <option value="$PROJECT_DIR$/src/gof23/observer/ObserverA.java" />
         <option value="$PROJECT_DIR$/src/gof23/observer/Client.java" />
+        <option value="$PROJECT_DIR$/src/gof23/javaseobserver/ConcreteSubject.java" />
+        <option value="$PROJECT_DIR$/src/gof23/javaseobserver/ObserverA.java" />
+        <option value="$PROJECT_DIR$/src/gof23/javaseobserver/Client.java" />
       </list>
     </option>
   </component>
@@ -289,13 +274,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gof23" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gof23" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -307,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545205653595" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545206449647" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pj_ec_fin_auto_loan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -340,20 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof23.commond.Client" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gof23.commond.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gof23.template.Client" />
       <module name="practice" />
@@ -373,6 +338,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="gof23.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof23.javaseobserver.Client" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof23.javaseobserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,19 +398,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (5)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +448,7 @@
       <workItem from="1544957915732" duration="2638000" />
       <workItem from="1545010758474" duration="22479000" />
       <workItem from="1545136104422" duration="6283000" />
-      <workItem from="1545187834038" duration="8716000" />
+      <workItem from="1545187834038" duration="9492000" />
     </task>
     <task id="LOCAL-00001" summary="内部类">
       <created>1534318883192</created>
@@ -710,17 +688,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545203770171</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="观察者模式">
+      <created>1545205675923</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1545205675923</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107326000" />
+    <option name="totallyTimeSpent" value="108102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3390558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3390558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -729,7 +714,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33055556" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36804566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36804566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -793,7 +778,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="如果内部类使用的变量要声明为final" />
     <MESSAGE value="内部类" />
     <MESSAGE value="colections1" />
     <MESSAGE value="colections2" />
@@ -818,7 +802,8 @@
     <MESSAGE value="策略模式" />
     <MESSAGE value="模版方法模式" />
     <MESSAGE value="状态模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="状态模式" />
+    <MESSAGE value="观察者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="观察者模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -833,38 +818,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gof23/bridge/Computer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/bridge/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/composite/Compoent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gof23/composite/AbstractFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1335,14 +1288,55 @@
     <entry file="file://$PROJECT_DIR$/src/gof23/observer/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/javaseobserver/ObserverA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/javaseobserver/ConcreteSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/javaseobserver/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
