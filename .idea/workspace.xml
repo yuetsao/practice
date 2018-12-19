@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gof23/flyweight/ChessFlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/flyweight/ChessFlyWeightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/flyweight/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof23/flyweight/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/chainofresponsibility/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/chainofresponsibility/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/chainofresponsibility/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/chainofresponsibility/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/chainofresponsibility/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof23/chainofresponsibility/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,7 +82,7 @@
           <entry key="JAVA/Parcel7" value="1" />
           <entry key="String" value="1" />
           <entry key="class" value="7" />
-          <entry key="java" value="139" />
+          <entry key="java" value="145" />
           <entry key="puml" value="1" />
           <entry key="umr" value="1" />
         </counts>
@@ -88,7 +90,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="139" />
+          <entry key="JAVA" value="145" />
           <entry key="PlantUML file" value="2" />
           <entry key="UML" value="3" />
         </counts>
@@ -96,14 +98,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="17482" />
-          <entry key="txt" value="121" />
+          <entry key="java" value="18283" />
+          <entry key="txt" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17482" />
-          <entry key="PLAIN_TEXT" value="141" />
+          <entry key="JAVA" value="18283" />
+          <entry key="PLAIN_TEXT" value="151" />
         </counts>
       </usages-collector>
     </session>
@@ -111,58 +113,84 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gof23/flyweight/ChessFlyWeight.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/LeaveRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gof23/flyweight/ChessFlyWeightFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/Leader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#184#208#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/Director.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="41" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="12" selection-end-column="41" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/GeneralManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gof23/flyweight/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gof23/flyweight/Coordinate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -194,12 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/xmlParser/ElementReader.java" />
-        <option value="$PROJECT_DIR$/src/xmlParser/AbstractApplicationContext.java" />
-        <option value="$PROJECT_DIR$/src/xmlParser/ElementReaderImpl.java" />
-        <option value="$PROJECT_DIR$/src/xmlParser/BeanCreatorImpl.java" />
-        <option value="$PROJECT_DIR$/src/gof23/simplefactory/Client.java" />
-        <option value="$PROJECT_DIR$/src/gof23/simplefactory/CarFactory.java" />
         <option value="$PROJECT_DIR$/src/gof23/simplefactory/Client2.java" />
         <option value="$PROJECT_DIR$/src/gof23/factorymethod/Audi.java" />
         <option value="$PROJECT_DIR$/src/gof23/factorymethod/CarFactory.java" />
@@ -245,6 +267,12 @@
         <option value="$PROJECT_DIR$/src/gof23/flyweight/ChessFlyWeight.java" />
         <option value="$PROJECT_DIR$/src/gof23/flyweight/ChessFlyWeightFactory.java" />
         <option value="$PROJECT_DIR$/src/gof23/flyweight/Client.java" />
+        <option value="$PROJECT_DIR$/src/gof23/chainofresponsibility/LeaveRequest.java" />
+        <option value="$PROJECT_DIR$/src/gof23/chainofresponsibility/Leader.java" />
+        <option value="$PROJECT_DIR$/src/gof23/chainofresponsibility/Director.java" />
+        <option value="$PROJECT_DIR$/src/gof23/chainofresponsibility/Manager.java" />
+        <option value="$PROJECT_DIR$/src/gof23/chainofresponsibility/GeneralManager.java" />
+        <option value="$PROJECT_DIR$/src/gof23/chainofresponsibility/Client.java" />
       </list>
     </option>
   </component>
@@ -293,7 +321,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545141440808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545184552797" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pj_ec_fin_auto_loan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -326,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Base" />
       <module name="practice" />
@@ -373,12 +401,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof23.dynamicproxy.Client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof23.chainofresponsibility.Client" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gof23.dynamicproxy.*" />
+          <option name="PATTERN" value="gof23.chainofresponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,19 +428,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Base" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Base" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +477,7 @@
       <workItem from="1544686254548" duration="3233000" />
       <workItem from="1544957915732" duration="2638000" />
       <workItem from="1545010758474" duration="22479000" />
-      <workItem from="1545136104422" duration="2798000" />
+      <workItem from="1545136104422" duration="5251000" />
     </task>
     <task id="LOCAL-00001" summary="内部类">
       <created>1534318883192</created>
@@ -640,16 +668,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545138904813</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="享元模式">
+      <created>1545141525580</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1545141525580</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95125000" />
+    <option name="totallyTimeSpent" value="97578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33404863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33404863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -658,7 +694,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33055556" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36804566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36804566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -741,7 +777,8 @@
     <MESSAGE value="适配器" />
     <MESSAGE value="代理 和 桥接" />
     <MESSAGE value="装饰器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="装饰器模式" />
+    <MESSAGE value="享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="享元模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -756,48 +793,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gof23/simplefactory/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/simplefactory/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/simplefactory/Client2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Audi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/Byd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/BydFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gof23/factorymethod/AudiFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1256,6 +1251,77 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gof23/flyweight/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/LeaveRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/Leader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/GeneralManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
