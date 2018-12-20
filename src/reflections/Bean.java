@@ -34,4 +34,7 @@ public class Bean {
     public void setId(int id) {
         this.id = id;
     }
+
+    public Bean() {
+    }
 }
