@@ -1,8 +1,9 @@
+package thinking;
 
 class Soap {
     private String s;
     Soap() {
-        System.out.println("Soap()");
+        System.out.println("thinking.Soap()");
         s = "Constructor";
     }
     public String toString() {

@@ -1,3 +1,5 @@
+package thinking;
+
 public class Parcel7 {
     public Contents contents() {
         return new Contents() {

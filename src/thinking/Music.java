@@ -1,3 +1,4 @@
+package thinking;
 
 class Instruments {
 

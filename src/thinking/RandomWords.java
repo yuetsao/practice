@@ -1,3 +1,5 @@
+package thinking;
+
 import java.nio.CharBuffer;
 import java.util.Random;
 import java.util.Scanner;

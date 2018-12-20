@@ -1,6 +1,7 @@
+package thinking;
 
 class Cleaner{
-    private String s = "Cleaner";
+    private String s = "thinking.Cleaner";
     public void append(String a) {
         s += a;
     }

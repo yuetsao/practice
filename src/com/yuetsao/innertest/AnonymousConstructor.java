@@ -2,7 +2,7 @@ package com.yuetsao.innertest;
 
 abstract class Base {
     public Base(int i) {
-        System.out.println("Base Constructor" + i);
+        System.out.println("thinking.Base Constructor" + i);
     }
     public abstract void f();
 }

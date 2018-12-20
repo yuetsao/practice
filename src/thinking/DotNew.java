@@ -1,3 +1,5 @@
+package thinking;
+
 public class DotNew {
     public class Inner{}
 

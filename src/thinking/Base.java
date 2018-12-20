@@ -1,3 +1,5 @@
+package thinking;
+
 public class Base
 {
     private String baseName = "base";

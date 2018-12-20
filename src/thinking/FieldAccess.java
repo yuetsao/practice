@@ -1,3 +1,4 @@
+package thinking;
 
 class Super {
     public int field = 0;

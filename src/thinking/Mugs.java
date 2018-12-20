@@ -1,6 +1,8 @@
+package thinking;
+
 class Mug {
     Mug(int marker) {
-        System.out.println("Mug-----"+ marker);
+        System.out.println("thinking.Mug-----"+ marker);
     }
     void f(int marker) {
         System.out.println("f----"+ marker);
@@ -15,16 +17,16 @@ public class Mugs {
         System.out.println("mug1 and mug2 initialized");
     }
     Mugs() {
-        System.out.println("Mugs");
+        System.out.println("thinking.Mugs");
     }
     Mugs(int i) {
-        System.out.println("Mugs(int)");
+        System.out.println("thinking.Mugs(int)");
     }
     public static void main(String args []) {
         System.out.println("inside main");
         new Mugs();
-        System.out.println("new Mugs completed");
+        System.out.println("new thinking.Mugs completed");
         new Mugs(1);
-        System.out.println("new Mugs(1) completed");
+        System.out.println("new thinking.Mugs(1) completed");
     }
 }

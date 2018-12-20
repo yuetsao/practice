@@ -1,18 +1,18 @@
+package thinking;
 
-
- abstract class Actor {
+abstract class Actor {
     public void act () {}
 }
 
 class HappyActor extends Actor {
     public void act() {
-        System.out.println("HappyActor acting");
+        System.out.println("thinking.HappyActor acting");
     }
 }
 
 class SadActor extends Actor {
     public void act() {
-        System.out.println("SadActor acting");
+        System.out.println("thinking.SadActor acting");
     }
 }
 

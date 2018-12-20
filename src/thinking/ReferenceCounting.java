@@ -1,3 +1,4 @@
+package thinking;
 
 class Shared {
     private int refcount = 0;

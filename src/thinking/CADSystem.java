@@ -1,3 +1,4 @@
+package thinking;
 
 class Shape {
     Shape(int i) {
@@ -22,10 +23,10 @@ class Circle extends Shape {
 class Triange extends Shape {
     Triange(int i) {
         super(i);
-        System.out.println("Triange constructor");
+        System.out.println("thinking.Triange constructor");
     }
     void dispose() {
-        System.out.println("Triange dispose");
+        System.out.println("thinking.Triange dispose");
         super.dispose();
     }
 
@@ -34,10 +35,10 @@ class Triange extends Shape {
 class Line extends  Shape {
     Line(int i) {
         super(i);
-        System.out.println("Line constructor");
+        System.out.println("thinking.Line constructor");
     }
     void dispose() {
-        System.out.println("Line dispose");
+        System.out.println("thinking.Line dispose");
         super.dispose();
     }
 }
@@ -45,10 +46,10 @@ class Line extends  Shape {
 public class CADSystem extends Shape {
     CADSystem(int i) {
         super(i);
-        System.out.println("CADSystem constructor");
+        System.out.println("thinking.CADSystem constructor");
     }
     void dispose() {
-        System.out.println("CADSystem dispose");
+        System.out.println("thinking.CADSystem dispose");
         super.dispose();
     }
 }

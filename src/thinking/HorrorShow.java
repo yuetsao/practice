@@ -1,3 +1,4 @@
+package thinking;
 
 interface Monster {public void menace();}
 //注意接口要用extends而不是implements因为接口毕竟不是实现（implement）

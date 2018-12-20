@@ -1,4 +1,4 @@
-
+package thinking;
 
 class Soup1 {
     private Soup1() {}

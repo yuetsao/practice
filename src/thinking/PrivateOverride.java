@@ -1,3 +1,5 @@
+package thinking;
+
 public class PrivateOverride {
     private void f() {
 //    public void f() {

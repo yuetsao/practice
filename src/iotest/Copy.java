@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Copy {
     public static void main(String[] args) {
-        copy("/Users/caoyue/workspaces/practice/src/Adventure.java", "/Users/caoyue/workspaces/practice/src/Adventure1.java");
+        copy("/Users/caoyue/workspaces/practice/src/thinking.Adventure.java", "/Users/caoyue/workspaces/practice/src/Adventure1.java");
     }
 
     public static void copy(String srcPath, String destPath) {

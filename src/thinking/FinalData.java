@@ -1,3 +1,5 @@
+package thinking;
+
 import java.util.Random;
 
 class Value{
@@ -28,7 +30,7 @@ public class FinalData {
         //fd1.valueone ++;
         fd1.v2.i++;
         fd1.v1 = new Value(9);
-//        fd1.v2 = new Value(0);
+//        fd1.v2 = new thinking.Value(0);
     }
 
 }

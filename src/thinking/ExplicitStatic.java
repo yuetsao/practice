@@ -1,7 +1,8 @@
+package thinking;
 
 class Cup {
     Cup(int marker) {
-        System.out.println("Cup------"+ marker);
+        System.out.println("thinking.Cup------"+ marker);
     }
     void f(int marker) {
         System.out.println("f-----"+marker);
@@ -16,7 +17,7 @@ class Cups {
         cup1 = new Cup(2);
     }
     Cups() {
-        System.out.println("Cups--------");
+        System.out.println("thinking.Cups--------");
     }
 
 }

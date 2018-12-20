@@ -1,3 +1,4 @@
+package thinking;
 
 interface Selector {
     boolean end();

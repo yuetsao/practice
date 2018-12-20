@@ -1,8 +1,9 @@
+package thinking;
 
 class WarerSource {
     private String s;
     WarerSource() {
-        System.out.println("WarerSource()");
+        System.out.println("thinking.WarerSource()");
         s = "Constructed";
     }
     public String toString() {

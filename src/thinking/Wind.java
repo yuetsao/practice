@@ -1,3 +1,4 @@
+package thinking;
 
 class Instrument {
     public void play () {

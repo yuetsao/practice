@@ -1,4 +1,4 @@
-import sun.misc.OSEnvironment;
+package thinking;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
@@ -12,7 +12,7 @@ public class Reflection {
         System.out.println("interfaces:");
         for(Type t: enumClass.getGenericInterfaces()) {
             System.out.println(t);
-            System.out.println("Base:"+ enumClass.getSuperclass());
+            System.out.println("thinking.Base:"+ enumClass.getSuperclass());
             System.out.println("methods:");
             Set<String> methods = new TreeSet<String>();
             for(Method m : enumClass.getMethods()) {
@@ -28,8 +28,8 @@ public class Reflection {
     public static void main(String[] args) {
         Set<String> exploreMethods = analyze(Explore.class);
         Set<String> enumMethods = analyze(Enum.class);
-        System.out.println("Explore.containsAll(Enum)？"+exploreMethods.containsAll(enumMethods));
-        System.out.println("Explore.removeAll(enmuMethods)");
+        System.out.println("thinking.Explore.containsAll(Enum)？"+exploreMethods.containsAll(enumMethods));
+        System.out.println("thinking.Explore.removeAll(enmuMethods)");
         System.out.println(exploreMethods.removeAll(enumMethods));
         System.out.println(exploreMethods);
 //        OSE

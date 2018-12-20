@@ -1,3 +1,4 @@
+package thinking;
 
 public class Parcel3 {
     class Contents {

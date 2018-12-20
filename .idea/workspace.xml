@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/annotation/CyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/Demo02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Adventure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Apply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Apply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Bath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CADSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/CADSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Chess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CovariantReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/CovariantReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Detergent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Detergent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/DotNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/DotThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExplicitStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/ExplicitStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FieldAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/FieldAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/FinalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HorrorShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/HorrorShow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Lunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mugs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Mugs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Orc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Parcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parcel3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Parcel3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parcel7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Parcel7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrivateOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/PrivateOverride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RandomWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/RandomWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReferenceCounting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/ReferenceCounting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Reflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SprinklerSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/SprinklerSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticInitializtion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/StaticInitializtion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transmogrify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Transmogrify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinking/Wind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yuetsao/innertest/AnonymousConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yuetsao/innertest/AnonymousConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iotest/Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iotest/Copy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +108,7 @@
           <entry key="JAVA/Parcel7" value="1" />
           <entry key="String" value="1" />
           <entry key="class" value="7" />
-          <entry key="java" value="191" />
+          <entry key="java" value="193" />
           <entry key="puml" value="1" />
           <entry key="umr" value="1" />
         </counts>
@@ -86,7 +116,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="191" />
+          <entry key="JAVA" value="193" />
           <entry key="PlantUML file" value="2" />
           <entry key="UML" value="3" />
         </counts>
@@ -94,14 +124,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="22036" />
-          <entry key="txt" value="197" />
+          <entry key="java" value="22131" />
+          <entry key="txt" value="202" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22036" />
-          <entry key="PLAIN_TEXT" value="217" />
+          <entry key="JAVA" value="22131" />
+          <entry key="PLAIN_TEXT" value="222" />
         </counts>
       </usages-collector>
     </session>
@@ -109,22 +139,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/annotation/CyAnnotation.java">
+        <entry file="file://$PROJECT_DIR$/src/thinking/Adventure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/annotation/Demo02.java">
+        <entry file="file://$PROJECT_DIR$/src/thinking/Apply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -250,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545287168094" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545287212277" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pj_ec_fin_auto_loan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -415,7 +442,7 @@
       <workItem from="1545136104422" duration="6283000" />
       <workItem from="1545187834038" duration="11374000" />
       <workItem from="1545224299448" duration="11000" />
-      <workItem from="1545285228018" duration="1764000" />
+      <workItem from="1545285228018" duration="2086000" />
     </task>
     <task id="LOCAL-00001" summary="内部类">
       <created>1534318883192</created>
@@ -676,17 +703,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545207781129</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="注解">
+      <created>1545287181683</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1545287181683</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111759000" />
+    <option name="totallyTimeSpent" value="112081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28040057" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28040057" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -694,7 +728,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33055556" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33055556" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36804566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -718,39 +752,6 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="PlantUML" order="10" weight="0.3297568" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3297568" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33055556" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36804566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32840723" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3266762" />
-      <window_info anchor="bottom" id="REST Client" order="12" weight="0.41944444" />
-      <window_info anchor="right" id="PlantUML" order="0" weight="0.3297568" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297568" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -759,7 +760,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="colections2" />
     <MESSAGE value="colections3" />
     <MESSAGE value="colections4" />
     <MESSAGE value="multi-thread" />
@@ -784,7 +784,8 @@
     <MESSAGE value="观察者模式" />
     <MESSAGE value="jdk的观察者模式" />
     <MESSAGE value="备忘录模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="备忘录模式" />
+    <MESSAGE value="注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="注解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -799,20 +800,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/LeaveRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/Leader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gof23/chainofresponsibility/Director.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1136,20 +1123,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/annotation/Demo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/annotation/CyAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotation/Demo02.java">
+    <entry file="file://$PROJECT_DIR$/src/thinking/Adventure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/Apply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,8 @@
+package thinking;
 
 class Bowl {
     Bowl(int marker) {
-        System.out.println("Bowl-----" + marker);
+        System.out.println("thinking.Bowl-----" + marker);
     }
 
     void  f1 (int marker) {
@@ -12,7 +13,7 @@ class Bowl {
 class Table {
     static Bowl bowl = new Bowl(1);
     Table() {
-        System.out.println("Table()");
+        System.out.println("thinking.Table()");
         bowl2.f1(1);
     }
     static void f2(int marker) {
@@ -29,7 +30,7 @@ class Cupboard {
     static Bowl bowl4 = new Bowl(4);
     Cupboard() {
         //4然后调用这个构造函数
-        System.out.println("Cupboard()");
+        System.out.println("thinking.Cupboard()");
         bowl4.f1(2);
     }
     static void f3 (int marker) {
@@ -43,9 +44,9 @@ class Cupboard {
 
 public class StaticInitializtion {
     public static void main(String [] args) {
-        System.out.println("Creating new Cupboard() in main");
+        System.out.println("Creating new thinking.Cupboard() in main");
         new Cupboard();
-        System.out.println("Creating new Cupboard() in main-----------");
+        System.out.println("Creating new thinking.Cupboard() in main-----------");
         new Cupboard();
         System.out.println("--------+++++----------");
         Table.f2(1);

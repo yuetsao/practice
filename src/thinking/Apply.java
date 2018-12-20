@@ -1,3 +1,5 @@
+package thinking;
+
 import java.util.Arrays;
 
 class Processor {

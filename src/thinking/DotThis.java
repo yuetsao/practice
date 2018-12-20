@@ -1,7 +1,8 @@
+package thinking;
 
 public class DotThis {
     void f() {
-        System.out.println("DotThis.f()");
+        System.out.println("thinking.DotThis.f()");
     }
     public class Inner {
         public DotThis outer () {
