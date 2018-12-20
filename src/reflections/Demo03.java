@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 /**
  * 动态通过反射api 动态操作方法属性
  */
-public class Demo031 {
+public class Demo03 {
     public static void main(String[] args) {
         System.out.println(1);
         //动态操作构造器
