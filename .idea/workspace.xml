@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../veolia_gitlab/two-phase-server/src/main/java/com/ireadyit/insights/datafill/service/impl/DataFillServiceImpl1.java" description="}" line="255" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReferenceTest/TestWeakHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReferenceTest/TestWeakReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,29 +38,52 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest5.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest6.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding>
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -100,9 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/gof23/state/Context.java" />
-        <option value="$PROJECT_DIR$/src/gof23/state/Client.java" />
-        <option value="$PROJECT_DIR$/src/gof23/observer/Subject.java" />
         <option value="$PROJECT_DIR$/src/gof23/observer/ConcreteSubject.java" />
         <option value="$PROJECT_DIR$/src/gof23/observer/Observer.java" />
         <option value="$PROJECT_DIR$/src/gof23/observer/ObserverA.java" />
@@ -151,6 +172,9 @@
         <option value="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/ClassLoaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest5.java" />
         <option value="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java" />
       </list>
     </option>
   </component>
@@ -181,7 +205,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="61" />
     <option name="y" value="23" />
     <option name="width" value="1378" />
@@ -249,8 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,18 +298,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classLoader" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,7 +312,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561210533940" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565833699501" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -333,13 +349,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyTest6">
-    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JVMTest.classLoader.ClassLoaderTest" />
+  <component name="RunManager" selected="Application.ConcurrencyTest">
+    <configuration name="ConcurrencyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.ConcurrencyTest" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JVMTest.classLoader.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,12 +389,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWeakReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReferenceTest.TestWeakReference" />
+    <configuration name="TestRetrunInException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.TestRetrunInException" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReferenceTest.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,12 +402,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testsub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testsub.Testsub" />
+    <configuration name="TransientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="transienttest.TransientTest" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testsub.*" />
+          <option name="PATTERN" value="transienttest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,19 +416,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Testsub" />
-      <item itemvalue="Application.TestWeakReference" />
-      <item itemvalue="Application.ClassLoaderTest" />
       <item itemvalue="Application.MyTest5" />
       <item itemvalue="Application.MyTest6" />
+      <item itemvalue="Application.TransientTest" />
+      <item itemvalue="Application.TestRetrunInException" />
+      <item itemvalue="Application.ConcurrencyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrencyTest" />
+        <item itemvalue="Application.TestRetrunInException" />
+        <item itemvalue="Application.TransientTest" />
         <item itemvalue="Application.MyTest6" />
         <item itemvalue="Application.MyTest5" />
-        <item itemvalue="Application.ClassLoaderTest" />
-        <item itemvalue="Application.TestWeakReference" />
-        <item itemvalue="Application.Testsub" />
       </list>
     </recent_temporary>
   </component>
@@ -473,20 +489,8 @@
       <workItem from="1559807419426" duration="3310000" />
       <workItem from="1559814004440" duration="2767000" />
       <workItem from="1561012497386" duration="6099000" />
-    </task>
-    <task id="LOCAL-00004" summary="内部类">
-      <created>1535449329008</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1535449329008</updated>
-    </task>
-    <task id="LOCAL-00005" summary="colections1">
-      <created>1535449783701</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1535449783701</updated>
+      <workItem from="1561341895724" duration="5015000" />
+      <workItem from="1564898641467" duration="2631000" />
     </task>
     <task id="LOCAL-00006" summary="colections2">
       <created>1535522131393</created>
@@ -817,7 +821,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559808590752</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="测试classLoader">
+      <created>1561341953856</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1561341953857</updated>
+    </task>
+    <task id="LOCAL-00054" summary="测试classLoader">
+      <created>1561341966542</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1561341966542</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -838,7 +856,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176185000" />
+    <option name="totallyTimeSpent" value="183831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,9 +868,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1390" height="877" extended-state="6" />
+    <frame x="61" y="23" width="1378" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23590505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24326347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -861,8 +880,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33055556" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27898088" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.277707" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987261" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32902297" />
@@ -936,7 +955,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="练习" />
     <MESSAGE value="适配器" />
     <MESSAGE value="代理 和 桥接" />
     <MESSAGE value="装饰器模式" />
@@ -961,7 +979,8 @@
     <MESSAGE value="webservice" />
     <MESSAGE value="下划线转驼峰" />
     <MESSAGE value="测试list中的subList" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试list中的subList" />
+    <MESSAGE value="测试classLoader" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试classLoader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -976,27 +995,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="980" column="42" selection-start-line="980" selection-start-column="36" selection-end-line="980" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nio/TestBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nio/TestChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tomcat/ex01/pyrmont/HttpServer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/endcode/Endcode.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1165,13 +1163,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/ReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/ReferenceTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JVMTest/classLoader/ClassLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1202,21 +1194,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
