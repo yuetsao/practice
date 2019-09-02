@@ -1,5 +1,7 @@
 package concurrency;
 
+import java.math.BigDecimal;
+
 /**
  * @author caoyue
  * @description 大概描述所属模块和介绍
@@ -9,8 +11,10 @@ public class ConcurrencyTest {
     private static final long count = 10000001;
 
     public static void main(String [] args) throws InterruptedException {
-        concurrency();
-        serial();
+        Double a = 234235423532.00;
+        System.out.println(new BigDecimal(a));
+//        concurrency();
+//        serial();
     }
 
     private static void concurrency() throws InterruptedException {

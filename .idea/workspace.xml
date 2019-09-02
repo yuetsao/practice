@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="561">
               <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
@@ -69,11 +67,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="340">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="425">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -206,10 +204,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
     <option name="y" value="23" />
-    <option name="width" value="1378" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -298,6 +295,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -312,7 +317,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565833699501" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566657437937" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -491,13 +496,11 @@
       <workItem from="1561012497386" duration="6099000" />
       <workItem from="1561341895724" duration="5015000" />
       <workItem from="1564898641467" duration="2631000" />
-    </task>
-    <task id="LOCAL-00006" summary="colections2">
-      <created>1535522131393</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1535522131394</updated>
+      <workItem from="1566029579607" duration="977000" />
+      <workItem from="1566800905272" duration="597000" />
+      <workItem from="1567066960291" duration="461000" />
+      <workItem from="1567398294922" duration="160000" />
+      <workItem from="1567404140154" duration="577000" />
     </task>
     <task id="LOCAL-00007" summary="colections3">
       <created>1535534698029</created>
@@ -835,7 +838,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561341966542</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="concurentcy">
+      <created>1566029616478</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1566029616479</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -856,7 +866,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183831000" />
+    <option name="totallyTimeSpent" value="186603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -868,10 +878,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="23" width="1378" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="791" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24326347" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -955,7 +965,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="适配器" />
     <MESSAGE value="代理 和 桥接" />
     <MESSAGE value="装饰器模式" />
     <MESSAGE value="享元模式" />
@@ -980,7 +989,8 @@
     <MESSAGE value="下划线转驼峰" />
     <MESSAGE value="测试list中的subList" />
     <MESSAGE value="测试classLoader" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试classLoader" />
+    <MESSAGE value="concurentcy" />
+    <option name="LAST_COMMIT_MESSAGE" value="concurentcy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1206,26 +1216,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="561">
           <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="340">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="425">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
