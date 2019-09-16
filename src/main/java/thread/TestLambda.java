@@ -12,16 +12,16 @@ public class TestLambda {
     为了避免这种错误，java8中增加了一种新的注解：@FunctionalInterface
     需要记住的一件事是：默认方法与静态方法并不影响函数式接口的契约，可以任意使用
     * */
-    public static void main(String[] args) {
-        Arrays.asList("a", "b", "c", "d").forEach(e-> System.out.println(e));
-        Arrays.asList("a", "b", "c", "d").forEach(e-> {
-            System.out.println(e);
-            System.out.println(e);
-        });
-        Arrays.asList("a", "b", "c", "d").sort((e1, e2) -> e1.compareTo(e2));
-        Arrays.asList("a", "b", "c", "d").sort((e1, e2) -> {
-            int result = e1.compareTo(e2);
-            return result;
-        });
-    }
+//    public static void main(String[] args) {
+//        Arrays.asList("a", "b", "c", "d").forEach(e-> System.out.println(e));
+//        Arrays.asList("a", "b", "c", "d").forEach(e-> {
+//            System.out.println(e);
+//            System.out.println(e);
+//        });
+//        Arrays.asList("a", "b", "c", "d").sort((e1, e2) -> e1.compareTo(e2));
+//        Arrays.asList("a", "b", "c", "d").sort((e1, e2) -> {
+//            int result = e1.compareTo(e2);
+//            return result;
+//        });
+//    }
 }
