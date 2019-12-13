@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../veolia_gitlab/two-phase-server/src/main/java/com/ireadyit/insights/datafill/service/impl/DataFillServiceImpl1.java" description="}" line="255" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
+    <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="concurentcy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/AbstractBlackHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/AbstractWhiteHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/AbstractYellowHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/FemaleBlackHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/FemaleHumanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/FemaleWhiteHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/FemaleYellowHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/HumanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/MaleBlackHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/MaleHumanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/MaleWhiteHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/MaleYellowHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/NvWa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,111 +43,13 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/basic/MemberVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/colections/SetOfInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gof23/observer/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/basic/TestMemberVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestLambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Sequence" />
         <option value="UML Activity" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -159,66 +70,10 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/gof23/javaseobserver/ObserverA.java" />
-        <option value="$PROJECT_DIR$/src/gof23/javaseobserver/Client.java" />
-        <option value="$PROJECT_DIR$/src/gof23/memento/EmpMemento.java" />
-        <option value="$PROJECT_DIR$/src/gof23/memento/Emp.java" />
-        <option value="$PROJECT_DIR$/src/gof23/memento/CareTake.java" />
-        <option value="$PROJECT_DIR$/src/gof23/memento/Client.java" />
-        <option value="$PROJECT_DIR$/src/annotation/CyAnnotation.java" />
-        <option value="$PROJECT_DIR$/src/annotation/Demo02.java" />
-        <option value="$PROJECT_DIR$/src/annotation/Table.java" />
-        <option value="$PROJECT_DIR$/src/annotation/CyStudent.java" />
-        <option value="$PROJECT_DIR$/src/annotation/CyField.java" />
-        <option value="$PROJECT_DIR$/src/annotation/Demo03.java" />
-        <option value="$PROJECT_DIR$/src/reflections/Demo01.java" />
-        <option value="$PROJECT_DIR$/src/reflections/Demo02.java" />
-        <option value="$PROJECT_DIR$/src/reflections/Bean.java" />
-        <option value="$PROJECT_DIR$/src/reflections/Demo031.java" />
-        <option value="$PROJECT_DIR$/src/reflections/Demo03.java" />
-        <option value="$PROJECT_DIR$/src/reflections/Demo04.java" />
-        <option value="$PROJECT_DIR$/src/equals/Sample.java" />
-        <option value="$PROJECT_DIR$/src/nio/TestBuffer.java" />
-        <option value="$PROJECT_DIR$/src/nio/TestChannel.java" />
-        <option value="$PROJECT_DIR$/src/endcode/Endcode.java" />
-        <option value="$PROJECT_DIR$/src/socket/MyServerSocket.java" />
-        <option value="$PROJECT_DIR$/src/GenerateCharSort.java" />
-        <option value="$PROJECT_DIR$/src/proxy/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/webservice/TestWebService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/LambdaTest03.java" />
-        <option value="$PROJECT_DIR$/src/main/java/proxy/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webservice/SSLTrustManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leftso/testwebservice/ObjectFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GenerateCharSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webservice/WebServiceClientInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webservice/TestWebService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webservice/MySocketFactory.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/stringtool/Tool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testsub/Testsub.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gof23/commond/Commond.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReferenceTest/TestWeakReference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReferenceTest/TestWeakHashMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/ClassLoaderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java" />
-        <option value="$PROJECT_DIR$/../zlpg/guns-admin/src/main/java/com/stylefeng/guns/core/serializer/JavaCacheSerializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/basic/MemberVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/basic/TestMemberVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/TestLambda.java" />
-        <option value="$PROJECT_DIR$/src/main/java/colections/SetOfInteger.java" />
-      </list>
-    </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -227,38 +82,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="practice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="practice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="practice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="practice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="dom4j:dom4j:1.6.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="52" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="798" />
+    <option name="width" value="1388" />
+    <option name="height" value="877" />
   </component>
+  <component name="ProjectId" id="1UpL1bcNZN3tVvbz9tJk88QFA5P" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -316,40 +146,25 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568604999004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575612722145" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -367,25 +182,26 @@
       <recent name="$PROJECT_DIR$/src/gof23/factorymethod" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.SetOfInteger">
+  <component name="RunManager" selected="Application.NvWa">
     <configuration name="ConcurrencyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrency.ConcurrencyTest" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NvWa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof23.zen.abstractFactory.NvWa" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof23.zen.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -432,35 +248,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="transienttest.TransientTest" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="transienttest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TransientTest" />
       <item itemvalue="Application.TestRetrunInException" />
       <item itemvalue="Application.ConcurrencyTest" />
       <item itemvalue="Application.TestMemberVo" />
       <item itemvalue="Application.SetOfInteger" />
+      <item itemvalue="Application.NvWa" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NvWa" />
         <item itemvalue="Application.SetOfInteger" />
         <item itemvalue="Application.TestMemberVo" />
         <item itemvalue="Application.ConcurrencyTest" />
         <item itemvalue="Application.TestRetrunInException" />
-        <item itemvalue="Application.TransientTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -527,21 +342,15 @@
       <workItem from="1567398294922" duration="160000" />
       <workItem from="1567404140154" duration="3742000" />
       <workItem from="1567570559928" duration="3076000" />
-      <workItem from="1568603892398" duration="812000" />
-    </task>
-    <task id="LOCAL-00009" summary="colections4">
-      <created>1535534976091</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1535534976091</updated>
-    </task>
-    <task id="LOCAL-00010" summary="io">
-      <created>1543835742444</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1543835742444</updated>
+      <workItem from="1568603892398" duration="1061000" />
+      <workItem from="1568882823560" duration="631000" />
+      <workItem from="1569201697555" duration="496000" />
+      <workItem from="1571886229538" duration="1217000" />
+      <workItem from="1572529489753" duration="599000" />
+      <workItem from="1572831437771" duration="529000" />
+      <workItem from="1575598164632" duration="679000" />
+      <workItem from="1576048377258" duration="185000" />
+      <workItem from="1576205471883" duration="3247000" />
     </task>
     <task id="LOCAL-00011" summary="io">
       <created>1543905320135</created>
@@ -872,7 +681,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568603911372</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="concurentcy">
+      <created>1568605002493</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1568605002493</updated>
+    </task>
+    <task id="LOCAL-00059" summary="concurentcy">
+      <created>1575598188677</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1575598188677</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -892,9 +715,6 @@
       <configuration name="TestBuffer.test1" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193656000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -903,89 +723,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="798" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33055556" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2776204" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987261" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32902297" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32719547" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32577905" />
-      <window_info anchor="bottom" id="REST Client" order="12" weight="0.41944444" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Tool Output" order="14" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="15" weight="0.32902297" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" />
-      <window_info anchor="bottom" id="Analysis" order="17" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
-      <window_info anchor="right" id="PlantUML" order="10" weight="0.3297568" />
-      <window_info anchor="right" id="BPMNPalette" order="11" />
-      <window_info anchor="right" id="Maven" order="12" weight="0.3297568" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.477842" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33055556" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2801724" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32902297" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3281027" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32614943" />
-      <window_info anchor="bottom" id="REST Client" order="12" weight="0.41944444" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Tool Output" order="14" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="15" weight="0.32902297" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" />
-      <window_info anchor="bottom" id="Analysis" order="17" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
-      <window_info anchor="right" id="PlantUML" order="10" weight="0.3297568" />
-      <window_info anchor="right" id="BPMNPalette" order="11" />
-      <window_info anchor="right" id="Maven" order="12" weight="0.3297568" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1018,343 +755,29 @@
     <MESSAGE value="concurentcy" />
     <option name="LAST_COMMIT_MESSAGE" value="concurentcy" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1576207524519">
+      <screen x="39" y="23" width="1401" height="877" />
+    </state>
+    <state x="552" y="184" key="#com.intellij.ide.util.MemberChooser/39.23.1401.877@39.23.1401.877" timestamp="1576207524519" />
+    <state x="227" y="43" key="SettingsEditor" timestamp="1576209347387">
+      <screen x="38" y="23" width="1402" height="877" />
+    </state>
+    <state x="227" y="43" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1576209347387" />
+    <state x="529" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576209432748">
+      <screen x="38" y="23" width="1402" height="877" />
+    </state>
+    <state x="529" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/38.23.1402.877@38.23.1402.877" timestamp="1576209432748" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/reflections/ToyTest.java</url>
           <line>17</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9975">
-          <caret line="708" selection-start-line="708" selection-end-line="708" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/LambdaTest03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/wsimport/com/chst/slcj/gys/GetSpic2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/wsimport/com/chst/slcj/gys/GetSpic2Service.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/wsimport/com/chst/slcj/gys/ObjectFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/wsimport/com/chst/slcj/gys/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/wsimport/com/chst/slcj/gys/GETSpic2Response.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chst/slcj/gys/GetSpic2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chst/slcj/gys/GETSpic2Response.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chst/slcj/gys/GetSpic2Service.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chst/slcj/gys/ObjectFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chst/slcj/gys/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leftso/testwebservice/GetSpic2.wsdl" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leftso/testwebservice/GetSpic21.wsdl" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leftso/testwebservice/GetSpic22.wsdl" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leftso/testwebservice/GETSpic2Response.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leftso/testwebservice/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leftso/testwebservice/ObjectFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leftso/testwebservice/GetSpic2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leftso/testwebservice/GetSpic2Service.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/SSLTrustManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/com/GetSpic2.wsdl" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/WebServiceClientInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/GenerateCharSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="125" column="43" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/client/Call.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/MySocketFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/TestWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gof23/abstractfactory/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gof23/abstractfactory/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testsub/Testsub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stringtool/Tool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gof23/adapter/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gof23/commond/Commond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gof23/abstractfactory/LuxuryCarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gof23/adapter/Adaptee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/ReferenceTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JVMTest/classLoader/ClassLoaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#234#445#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReferenceTest/TestWeakHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReferenceTest/TestWeakReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zlpg/guns-admin/src/main/java/com/stylefeng/guns/core/serializer/JavaCacheSerializer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basic/MemberVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gof23/observer/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basic/TestMemberVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestLambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/colections/SetOfInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>dom4j-2.1.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>practice</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: xml-apis:xml-apis:1.0.b2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
