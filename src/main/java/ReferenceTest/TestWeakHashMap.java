@@ -9,7 +9,7 @@ import java.util.WeakHashMap;
  **/
 public class TestWeakHashMap {
     public static void main(String[] args) {
-    WeakHashMap<String, String> weakHashMap = new WeakHashMap<>();
+    WeakHashMap<String, String> weakHashMap = new WeakHashMap<String, String>();
     weakHashMap.put("zhangsan", "lisi");
 
     }
