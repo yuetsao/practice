@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/ChinaTopDnsServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/DnsServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/Recorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/SHDnsServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/TopDnsServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/DataBaseLoggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/DatabaseLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/FileLoggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/LoggerFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,13 +173,39 @@
       <recent name="$PROJECT_DIR$/src/gof23/factorymethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gof23.zen.zenObserver.Client" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="gof23.zen.zenObserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof23.zen.interfaceD.Client" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof23.zen.interfaceD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof23.liuwei.abstractFactory.Client" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof23.liuwei.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,46 +239,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetOfInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="colections.SetOfInteger" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="colections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMemberVo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.TestMemberVo" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TestMemberVo" />
-      <item itemvalue="Application.SetOfInteger" />
       <item itemvalue="Application.NvWa" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.NvWa" />
-        <item itemvalue="Application.SetOfInteger" />
-        <item itemvalue="Application.TestMemberVo" />
       </list>
     </recent_temporary>
   </component>
@@ -342,14 +343,8 @@
       <workItem from="1576048377258" duration="185000" />
       <workItem from="1576205471883" duration="7551000" />
       <workItem from="1576768447278" duration="1234000" />
-      <workItem from="1577590271018" duration="4311000" />
-    </task>
-    <task id="LOCAL-00013" summary="龟兔赛跑">
-      <created>1544421643174</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1544421643174</updated>
+      <workItem from="1577590271018" duration="6121000" />
+      <workItem from="1578059102426" duration="1778000" />
     </task>
     <task id="LOCAL-00014" summary="testlambda">
       <created>1544431269692</created>
@@ -687,7 +682,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577591304255</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="GUANCHAZHE">
+      <created>1577595057805</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1577595057805</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -720,7 +722,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="享元模式" />
     <MESSAGE value="责任链模式" />
     <MESSAGE value="中介者模式" />
     <MESSAGE value="命令模式" />
@@ -745,64 +746,68 @@
     <MESSAGE value="concurentcy" />
     <MESSAGE value="抽象工厂模式" />
     <MESSAGE value="jialidiannaoshangyunxing" />
-    <option name="LAST_COMMIT_MESSAGE" value="jialidiannaoshangyunxing" />
+    <MESSAGE value="GUANCHAZHE" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUANCHAZHE" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2303" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1577592816859">
-      <screen x="1600" y="0" width="1920" height="1040" />
+    <state x="2186" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1578059924314">
+      <screen x="1600" y="0" width="1600" height="860" />
     </state>
-    <state x="2303" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577592816859" />
+    <state x="2303" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577634019803" />
+    <state x="2186" y="158" key="#com.intellij.ide.util.MemberChooser/1600.0.1600.860/0.0.1600.860@1600.0.1600.860" timestamp="1578059924314" />
     <state x="551" y="184" key="#com.intellij.ide.util.MemberChooser/37.23.1403.877@37.23.1403.877" timestamp="1576219628354" />
     <state x="552" y="184" key="#com.intellij.ide.util.MemberChooser/39.23.1401.877@39.23.1401.877" timestamp="1576207524519" />
-    <state x="2004" y="50" key="CommitChangelistDialog2" timestamp="1577591303360">
+    <state x="2004" y="50" key="CommitChangelistDialog2" timestamp="1577634501540">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state x="2004" y="50" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591303360" />
+    <state x="2004" y="50" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577634501540" />
     <state x="333" y="65" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1576209464498" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577594076898">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577634164523">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577594076898" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577634164523" />
     <state width="1359" height="189" key="GridCell.Tab.0.bottom/37.23.1403.877@37.23.1403.877" timestamp="1576220272142" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577594076897">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577634164523">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577594076897" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577634164523" />
     <state width="1359" height="189" key="GridCell.Tab.0.center/37.23.1403.877@37.23.1403.877" timestamp="1576220272141" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577594076897">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577634164522">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577594076897" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577634164522" />
     <state width="1359" height="189" key="GridCell.Tab.0.left/37.23.1403.877@37.23.1403.877" timestamp="1576220272141" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577594076898">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577634164523">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577594076898" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577634164523" />
     <state width="1359" height="189" key="GridCell.Tab.0.right/37.23.1403.877@37.23.1403.877" timestamp="1576220272142" />
     <state x="1859" y="24" key="SettingsEditor" timestamp="1577591077427">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
     <state x="1859" y="24" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591077427" />
     <state x="227" y="43" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1576209347387" />
-    <state x="2012" y="211" key="Vcs.Push.Dialog.v2" timestamp="1577591306172">
+    <state x="2012" y="211" key="Vcs.Push.Dialog.v2" timestamp="1577595059633">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state x="2012" y="211" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591306172" />
+    <state x="2012" y="211" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577595059633" />
     <state x="339" y="201" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1576209467582" />
-    <state x="2176" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1577590271088">
-      <screen x="1600" y="0" width="1920" height="1040" />
+    <state x="2080" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1578059103585">
+      <screen x="1600" y="0" width="1600" height="860" />
     </state>
     <state x="480" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1576768447318" />
     <state x="2176" y="307" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577590271088" />
+    <state x="2080" y="254" key="com.intellij.ide.util.TipDialog/1600.0.1600.860/0.0.1600.860@1600.0.1600.860" timestamp="1578059103585" />
     <state x="2077" y="343" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577591075549">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
     <state x="2077" y="343" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591075549" />
-    <state x="2273" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577591272864">
-      <screen x="1600" y="0" width="1920" height="1040" />
+    <state x="2161" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578063016634">
+      <screen x="1600" y="0" width="1600" height="860" />
     </state>
     <state x="561" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1576770200654" />
     <state x="2273" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591272864" />
+    <state x="2161" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1600.0.1600.860/0.0.1600.860@1600.0.1600.860" timestamp="1578063016634" />
     <state x="528" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/36.23.1404.877@36.23.1404.877" timestamp="1576222460011" />
     <state x="529" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/38.23.1402.877@38.23.1402.877" timestamp="1576209432748" />
     <state x="2223" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577592689004">
