@@ -1,0 +1,37 @@
+@startuml
+
+abstract class Chart
+class HistogramChart
+class PieChart
+class LineChart
+class ChartFactory
+
+HistogramChart ...|> Chart
+PieChart ...|> Chart
+LineChart ...|> Chart
+ChartFactory ...> HistogramChart
+ChartFactory ...> PieChart
+ChartFactory ...> LineChart
+
+abstract class Chart {
+    + display : void 
+}
+class HistogramChart {
+    + HistogramChart
+    + display : void
+}
+class PieChart {
+    + PieChart
+    + display : void
+}
+
+class LineChart {
+    + LineChart
+    + display : void
+}
+
+class ChartFactory {
+    + getChart(String type) : Chart
+}
+
+@enduml
