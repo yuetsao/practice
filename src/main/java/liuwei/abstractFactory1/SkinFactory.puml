@@ -1,0 +1,62 @@
+@startuml
+
+interface SkinFactory
+class SpringSkinFactory
+class SummerSkinFactory
+interface Button
+class SpringButton
+class SummerButton
+interface TextField
+class SpringTextField
+class SummerTextField
+interface ComboBox
+class SpringComboBox
+class SummerComboBox
+class Client
+
+interface SkinFactory {
+    + createButton() : Button
+    + createTextField(): TextField
+    + createComboBox() : ComboBox
+}
+
+class SpringSkinFactory {
+    + createButton() : Button
+    + createTextField(): TextField
+    + createComboBox() : ComboBox
+}
+
+class SummerSkinFactory {
+    + createButton() : Button
+    + createTextField(): TextField
+    + createComboBox() : ComboBox
+}
+
+SkinFactory <|... SpringSkinFactory
+SkinFactory <|... SummerSkinFactory
+
+Button <|... SpringButton
+Button <|... SummerButton
+
+TextField <|... SpringTextField
+TextField <|... SummerTextField
+
+ComboBox <|... SpringComboBox
+ComboBox <|... SummerComboBox
+
+SpringSkinFactory ...> SpringButton
+SpringSkinFactory ...> SpringTextField
+SpringSkinFactory ...> SpringComboBox
+
+SummerSkinFactory ...> SummerButton
+SummerSkinFactory ...> SummerTextField
+SummerSkinFactory ...> SummerComboBox
+
+Client ...> Button
+Client ...> TextField
+Client ...> ComboBox
+Client ...> SkinFactory
+
+
+
+@enduml

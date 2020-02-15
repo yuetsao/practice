@@ -1,0 +1,43 @@
+@startuml
+
+class Client
+interface AbstractFactory
+class ConcreteFactory1
+class ConcreteFactory2
+interface AbstractProductA
+class ConcreteProductA1
+class ConcreteProductA2
+interface AbstractProductB
+class ConcreteProductB1
+class ConcreteProductB2
+
+AbstractFactory <... Client
+AbstractProductA <... Client
+AbstractProductB <... Client
+AbstractFactory <|... ConcreteFactory1
+AbstractFactory <|... ConcreteFactory2
+ConcreteProductA1 <|... AbstractProductA
+ConcreteProductA2 <|... AbstractProductA
+ConcreteProductB1 <|... AbstractProductB
+ConcreteProductB2 <|... AbstractProductB
+ConcreteFactory1 <... ConcreteProductA1
+ConcreteFactory1 <... ConcreteProductB1
+ConcreteFactory2 <... ConcreteProductA2
+ConcreteFactory2 <... ConcreteProductB2
+
+abstract class AbstractFactory {
+    + createProductA() : AbstractProductA
+    + createProductB() : AbstractProductB
+}
+
+class ConcreteFactory1 {
+    + createProductA() : AbstractProductA
+    + createProductB() : AbstractProductB
+}
+
+class ConcreteFactory2 {
+    + createProductA() : AbstractProductA
+    + createProductB() : AbstractProductB
+}
+
+@enduml
