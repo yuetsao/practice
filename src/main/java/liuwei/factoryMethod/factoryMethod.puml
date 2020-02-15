@@ -1,0 +1,23 @@
+@startuml
+
+interface Product
+interface Factory
+class ConcreteProduct
+class ConcreteFactory
+note left
+return new ConcreteProduct();
+end note
+
+Product <|-- ConcreteProduct
+Factory <|-- ConcreteFactory
+ConcreteProduct <... ConcreteFactory
+
+interface Factory {
+    + factoryMethod()
+}
+
+class ConcreteFactory {
+    + factoryMethod()
+}
+
+@enduml
