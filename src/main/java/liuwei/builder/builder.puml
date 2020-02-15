@@ -1,0 +1,38 @@
+@startuml
+
+abstract class Builder
+class ConcreteBuilder
+class Product
+class Director
+
+Builder <|-- ConcreteBuilder
+Product <... ConcreteBuilder
+Builder <--o Director
+
+abstract Builder {
+    + builderPartA()
+    + builderPartB()
+    + builderPartC()
+    + getResult()
+}
+
+class ConcreteBuilder {
+    + builderPartA()
+    + builderPartB
+    + builderPartC
+    + getResult()
+}
+
+class Director {
+    - builder : Builder
+    + construct()
+}
+
+note left
+builder.builderPartA();
+builder.builderPartB();
+builder.builderPartC();
+return builder.getResult();
+end note
+
+@enduml

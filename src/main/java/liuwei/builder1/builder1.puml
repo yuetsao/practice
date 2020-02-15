@@ -1,0 +1,72 @@
+@startuml
+
+class Actor
+abstract class ActorBuilder
+class HeroBuilder
+class AngelBuilder
+class DevilBuilder
+class ActorController
+
+class Actor {
+    - type     : String
+    - sex      : String
+    - face     : String
+    - costume  : String
+    - hairstyle: String
+    + setType(String type) :void
+    + getType() : String
+    + setSex(String sex) :void
+    + getSex() : String
+    + setFace(String face): void
+    + getFace() : String
+    + setCostume(String costume): void
+    + getCostume() : void
+    + setHairstyle(String hairstyle): void
+    + getHairstyle() : String
+}
+
+abstract class ActorBuilder {
+    # actor : Actor = new Actor()
+    + buildType() : void
+    + buildSex() : void
+    + buildFace() : void
+    + buildCostume() : void
+    + buildHairstyle() : void
+    + createActor() : Actor
+}
+
+class HeroBuilder {
+   + buildType() : void
+   + buildSex() : void
+   + buildFace() : void
+   + buildCostume() : void
+   + buildHairstyle() : void 
+}
+
+class AngelBuilder {
+   + buildType() : void
+   + buildSex() : void
+   + buildFace() : void
+   + buildCostume() : void
+   + buildHairstyle() : void 
+}
+
+class DevilBuilder {
+   + buildType() : void
+   + buildSex() : void
+   + buildFace() : void
+   + buildCostume() : void
+   + buildHairstyle() : void 
+}
+
+class ActorController {
+    + construct(ActorBuilder ab) : Actor
+}
+
+Actor <--* ActorBuilder
+ActorBuilder <|-- HeroBuilder
+ActorBuilder <|-- AngelBuilder
+ActorBuilder <|-- DevilBuilder
+ActorBuilder <... ActorController
+
+@enduml
