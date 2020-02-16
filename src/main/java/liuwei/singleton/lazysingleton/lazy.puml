@@ -1,0 +1,14 @@
+@startuml
+'其实就是增加一个synchronized方法
+class LazySingleton
+
+class LazySingleton {
+    - instance : LazySingleton = null
+    - LazySingleton()
+    + getInstance() : LazySingleton
+}
+
+LazySingleton <--o LazySingleton
+LazySingleton <... LazySingleton
+
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+
+class EagerSingleton
+
+class EagerSingleton {
+    - instance : EagerSingleton = new EagerSingleton();
+    - EagerSingleton()
+    + getInstance() : EagerSingleton
+}
+
+EagerSingleton <--o EagerSingleton
+
+@enduml
