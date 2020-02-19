@@ -1,0 +1,34 @@
+@startuml
+
+abstract class Component
+class Leaf
+class Composite
+class Client
+
+abstract class Component {
+    + operation()
+    + add(Component c)
+    + remove(Component c)
+    + getChild(int i)
+}
+
+class Leaf {
+    + operation()
+}
+
+class Composite {
+    + operation()
+    + add(Component c)
+    + remove(Component c)
+    + getChild(int i)
+}
+
+class Client {
+}
+
+Component <|-- Leaf
+Component <|-- Composite
+Component <--* Composite
+Component <-- Client
+
+@enduml
