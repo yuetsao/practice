@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/facade/CipherMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/facade/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/facade/EncryptFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/facade/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/facade/FileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/facade/facade.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/flyweight.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +36,8 @@
         <option value="UML Activity" />
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="UML Class" />
         <option value="Class" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
@@ -351,14 +346,7 @@
       <workItem from="1581585149688" duration="33225000" />
       <workItem from="1581915593420" duration="764000" />
       <workItem from="1581922045549" duration="3138000" />
-      <workItem from="1582082107091" duration="13796000" />
-    </task>
-    <task id="LOCAL-00029" summary="责任链模式">
-      <created>1545184707429</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1545184707429</updated>
+      <workItem from="1582082107091" duration="15564000" />
     </task>
     <task id="LOCAL-00030" summary="中介者模式">
       <created>1545189651306</created>
@@ -696,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582199752440</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="feat: 门面模式">
+      <created>1582257996812</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1582257996812</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -729,7 +724,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="直接缓冲区完成文件的复制" />
     <MESSAGE value="深入剖析tomcat源代码" />
     <MESSAGE value="webservice" />
     <MESSAGE value="下划线转驼峰" />
@@ -754,7 +748,8 @@
     <MESSAGE value="feat: 桥接模式" />
     <MESSAGE value="feat: 组合模式" />
     <MESSAGE value="feat: 装饰模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 装饰模式" />
+    <MESSAGE value="feat: 门面模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 门面模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="23" key="#Project_Structure" timestamp="1581586856973">
@@ -774,12 +769,12 @@
     <state x="724" y="23" key="#com.intellij.ide.util.MemberChooser/44.23.1396.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582124955091" />
     <state x="723" y="23" key="#com.intellij.ide.util.MemberChooser/47.23.1393.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582180952752" />
     <state x="727" y="23" key="#com.intellij.ide.util.MemberChooser/50.23.1390.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581922973433" />
-    <state x="662" y="23" key="CommitChangelistDialog2" timestamp="1582199752274">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state x="2224" y="-156" key="CommitChangelistDialog2" timestamp="1582257996653">
+      <screen x="1440" y="-263" width="1920" height="1057" />
     </state>
     <state x="2004" y="50" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577634501540" />
     <state x="333" y="65" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1576209464498" />
-    <state x="1894" y="-74" key="CommitChangelistDialog2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581768298217" />
+    <state x="2224" y="-156" key="CommitChangelistDialog2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582257996653" />
     <state x="662" y="23" key="CommitChangelistDialog2/41.23.1399.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582199752274" />
     <state x="1845" y="-117" key="CommitChangelistDialog2/43.23.1397.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582105876362" />
     <state x="662" y="23" key="CommitChangelistDialog2/44.23.1396.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582128790848" />
@@ -830,12 +825,12 @@
     <state x="1859" y="24" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591077427" />
     <state x="227" y="43" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1576209347387" />
     <state x="416" y="23" key="SettingsEditor/43.23.1397.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581586932639" />
-    <state x="640" y="23" key="Vcs.Push.Dialog.v2" timestamp="1582199754203">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state x="640" y="23" key="Vcs.Push.Dialog.v2" timestamp="1582257998858">
+      <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="2012" y="211" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577595059633" />
     <state x="339" y="201" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1576209467582" />
-    <state x="640" y="23" key="Vcs.Push.Dialog.v2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581768301041" />
+    <state x="640" y="23" key="Vcs.Push.Dialog.v2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582257998858" />
     <state x="640" y="23" key="Vcs.Push.Dialog.v2/41.23.1399.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582199754203" />
     <state x="640" y="23" key="Vcs.Push.Dialog.v2/43.23.1397.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582105878197" />
     <state x="640" y="23" key="Vcs.Push.Dialog.v2/44.23.1396.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582128792487" />
@@ -850,15 +845,15 @@
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
     <state x="2077" y="343" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591075549" />
-    <state x="1007" y="32" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582199732536">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state x="844" y="23" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582296596225">
+      <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="561" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1576770200654" />
     <state x="2273" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591272864" />
     <state x="2161" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1600.0.1600.860/0.0.1600.860@1600.0.1600.860" timestamp="1578063016634" />
     <state x="528" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/36.23.1404.877@36.23.1404.877" timestamp="1576222460011" />
     <state x="529" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/38.23.1402.877@38.23.1402.877" timestamp="1576209432748" />
-    <state x="844" y="23" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581768267585" />
+    <state x="844" y="23" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582296596225" />
     <state x="1007" y="32" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/41.23.1399.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582199732536" />
     <state x="1007" y="173" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/43.23.1397.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582105837264" />
     <state x="844" y="23" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/44.23.1396.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582128770080" />
