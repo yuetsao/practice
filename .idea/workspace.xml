@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/BlackIgoChessman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/IgoChessman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/IgoChessmanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/WhiteIgoChessman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/proxy/AccessValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/proxy/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/proxy/ProxySearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/proxy/RealSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/proxy/Searcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/liuwei/proxy/proxy.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +40,8 @@
         <option value="UML Sequence" />
         <option value="UML Activity" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="UML Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -351,14 +352,7 @@
       <workItem from="1581585149688" duration="33225000" />
       <workItem from="1581915593420" duration="764000" />
       <workItem from="1581922045549" duration="3138000" />
-      <workItem from="1582082107091" duration="18439000" />
-    </task>
-    <task id="LOCAL-00031" summary="命令模式">
-      <created>1545199571879</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1545199571879</updated>
+      <workItem from="1582082107091" duration="20815000" />
     </task>
     <task id="LOCAL-00032" summary="策略模式">
       <created>1545201796502</created>
@@ -696,7 +690,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582296632739</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="feat: 享元模式">
+      <created>1582374705446</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1582374705446</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TodoView">
@@ -744,25 +745,25 @@
       <screen x="43" y="23" width="1397" height="877" />
     </state>
     <state x="640" y="23" key="#Project_Structure/43.23.1397.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581586856973" />
-    <state x="921" y="23" width="519" height="584" key="#com.intellij.ide.util.MemberChooser" timestamp="1582350024669">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state x="1066" y="23" width="519" height="584" key="#com.intellij.ide.util.MemberChooser" timestamp="1582378941932">
+      <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="2303" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577634019803" />
     <state x="2186" y="158" key="#com.intellij.ide.util.MemberChooser/1600.0.1600.860/0.0.1600.860@1600.0.1600.860" timestamp="1578059924314" />
     <state x="551" y="184" key="#com.intellij.ide.util.MemberChooser/37.23.1403.877@37.23.1403.877" timestamp="1576219628354" />
     <state x="552" y="184" key="#com.intellij.ide.util.MemberChooser/39.23.1401.877@39.23.1401.877" timestamp="1576207524519" />
-    <state x="1066" y="23" key="#com.intellij.ide.util.MemberChooser/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581675416268" />
+    <state x="1066" y="23" key="#com.intellij.ide.util.MemberChooser/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582378941932" />
     <state x="921" y="23" width="519" height="584" key="#com.intellij.ide.util.MemberChooser/41.23.1399.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582350024669" />
     <state x="1066" y="23" key="#com.intellij.ide.util.MemberChooser/43.23.1397.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581586643180" />
     <state x="724" y="23" key="#com.intellij.ide.util.MemberChooser/44.23.1396.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582124955091" />
     <state x="723" y="23" key="#com.intellij.ide.util.MemberChooser/47.23.1393.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582180952752" />
     <state x="727" y="23" key="#com.intellij.ide.util.MemberChooser/50.23.1390.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581922973433" />
-    <state x="2196" y="-60" key="CommitChangelistDialog2" timestamp="1582296632607">
+    <state x="1956" y="-151" key="CommitChangelistDialog2" timestamp="1582374705311">
       <screen x="1440" y="-263" width="1920" height="1057" />
     </state>
     <state x="2004" y="50" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577634501540" />
     <state x="333" y="65" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1576209464498" />
-    <state x="2196" y="-60" key="CommitChangelistDialog2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582296632607" />
+    <state x="1956" y="-151" key="CommitChangelistDialog2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582374705311" />
     <state x="662" y="23" key="CommitChangelistDialog2/41.23.1399.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582199752274" />
     <state x="1845" y="-117" key="CommitChangelistDialog2/43.23.1397.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582105876362" />
     <state x="662" y="23" key="CommitChangelistDialog2/44.23.1396.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582128790848" />
@@ -813,12 +814,12 @@
     <state x="1859" y="24" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591077427" />
     <state x="227" y="43" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1576209347387" />
     <state x="416" y="23" key="SettingsEditor/43.23.1397.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581586932639" />
-    <state x="640" y="23" key="Vcs.Push.Dialog.v2" timestamp="1582296634890">
+    <state x="640" y="23" key="Vcs.Push.Dialog.v2" timestamp="1582374707115">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="2012" y="211" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577595059633" />
     <state x="339" y="201" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1576209467582" />
-    <state x="640" y="23" key="Vcs.Push.Dialog.v2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582296634890" />
+    <state x="640" y="23" key="Vcs.Push.Dialog.v2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582374707115" />
     <state x="640" y="23" key="Vcs.Push.Dialog.v2/41.23.1399.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582199754203" />
     <state x="640" y="23" key="Vcs.Push.Dialog.v2/43.23.1397.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582105878197" />
     <state x="640" y="23" key="Vcs.Push.Dialog.v2/44.23.1396.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582128792487" />
@@ -833,8 +834,8 @@
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
     <state x="2077" y="343" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591075549" />
-    <state x="844" y="23" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582374690671">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state x="1007" y="32" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582379359380">
+      <screen x="41" y="23" width="1399" height="877" />
     </state>
     <state x="561" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1576770200654" />
     <state x="2273" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1577591272864" />
@@ -842,7 +843,7 @@
     <state x="528" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/36.23.1404.877@36.23.1404.877" timestamp="1576222460011" />
     <state x="529" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/38.23.1402.877@38.23.1402.877" timestamp="1576209432748" />
     <state x="844" y="23" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/40.23.1400.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582374690671" />
-    <state x="1007" y="32" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/41.23.1399.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582199732536" />
+    <state x="1007" y="32" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/41.23.1399.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582379359380" />
     <state x="1007" y="173" width="433" height="152" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/43.23.1397.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582105837264" />
     <state x="844" y="23" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/44.23.1396.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1582128770080" />
     <state x="1007" y="32" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/50.23.1390.877/1440.-263.1920.1057@1440.-263.1920.1057" timestamp="1581923243722" />
