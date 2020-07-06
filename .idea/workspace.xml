@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mashibing/juc/c_001/T.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/c_001/T.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mashibing/juc/c_001/T.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,14 +334,7 @@
       <workItem from="1582082107091" duration="25795000" />
       <workItem from="1582525330338" duration="2896000" />
       <workItem from="1582553036009" duration="1904000" />
-      <workItem from="1593876371059" duration="7237000" />
-    </task>
-    <task id="LOCAL-00040" summary="通过反射解析注解">
-      <created>1545290053947</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1545290053947</updated>
+      <workItem from="1593876371059" duration="8000000" />
     </task>
     <task id="LOCAL-00041" summary="Class对象">
       <created>1545292109886</created>
@@ -678,7 +672,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594026086202</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="feat:volatile保证线程可见性和和禁止指令重排序">
+      <created>1594026912848</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1594026912848</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TodoView">
@@ -694,7 +695,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 简单工厂方法模式经典代码" />
     <MESSAGE value="feat: 简单工程模式经典代码UML类图" />
     <MESSAGE value="feat: 简单工厂模式例子" />
     <MESSAGE value="feat: 工厂方法模式" />
@@ -719,7 +719,8 @@
     <MESSAGE value="feat: 线程的两种创建方式和lambda" />
     <MESSAGE value="feat:sleep,yield,join" />
     <MESSAGE value="feat:线程的状态转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:线程的状态转换" />
+    <MESSAGE value="feat:volatile保证线程可见性和和禁止指令重排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:volatile保证线程可见性和和禁止指令重排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1594021105323">
@@ -727,42 +728,42 @@
     </state>
     <state x="1066" y="186" key="#com.intellij.ide.util.MemberChooser/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594021105323" />
     <state x="548" y="178" key="#com.intellij.ide.util.MemberChooser/30.23.1410.877@30.23.1410.877" timestamp="1593876730479" />
-    <state x="607" y="88" key="CommitChangelistDialog2" timestamp="1594026085994">
+    <state x="607" y="88" key="CommitChangelistDialog2" timestamp="1594026912676">
       <screen x="27" y="23" width="1413" height="877" />
     </state>
-    <state x="607" y="88" key="CommitChangelistDialog2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026085994" />
-    <state width="1324" height="236" key="GridCell.Tab.0.bottom" timestamp="1594026835886">
+    <state x="607" y="88" key="CommitChangelistDialog2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026912676" />
+    <state width="1324" height="236" key="GridCell.Tab.0.bottom" timestamp="1594027527321">
       <screen x="1440" y="23" width="1366" height="923" />
     </state>
-    <state width="1324" height="236" key="GridCell.Tab.0.bottom/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026835886" />
+    <state width="1324" height="236" key="GridCell.Tab.0.bottom/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027527321" />
     <state width="1368" height="236" key="GridCell.Tab.0.bottom/33.23.1407.877@33.23.1407.877" timestamp="1593878128398" />
-    <state width="1324" height="236" key="GridCell.Tab.0.center" timestamp="1594026835885">
+    <state width="1324" height="236" key="GridCell.Tab.0.center" timestamp="1594027527320">
       <screen x="1440" y="23" width="1366" height="923" />
     </state>
-    <state width="1324" height="236" key="GridCell.Tab.0.center/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026835885" />
+    <state width="1324" height="236" key="GridCell.Tab.0.center/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027527320" />
     <state width="1368" height="236" key="GridCell.Tab.0.center/33.23.1407.877@33.23.1407.877" timestamp="1593878128397" />
-    <state width="1324" height="236" key="GridCell.Tab.0.left" timestamp="1594026835884">
+    <state width="1324" height="236" key="GridCell.Tab.0.left" timestamp="1594027527319">
       <screen x="1440" y="23" width="1366" height="923" />
     </state>
-    <state width="1324" height="236" key="GridCell.Tab.0.left/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026835884" />
+    <state width="1324" height="236" key="GridCell.Tab.0.left/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027527319" />
     <state width="1368" height="236" key="GridCell.Tab.0.left/33.23.1407.877@33.23.1407.877" timestamp="1593878128397" />
-    <state width="1324" height="236" key="GridCell.Tab.0.right" timestamp="1594026835885">
+    <state width="1324" height="236" key="GridCell.Tab.0.right" timestamp="1594027527320">
       <screen x="1440" y="23" width="1366" height="923" />
     </state>
-    <state width="1324" height="236" key="GridCell.Tab.0.right/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026835885" />
+    <state width="1324" height="236" key="GridCell.Tab.0.right/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027527320" />
     <state width="1368" height="236" key="GridCell.Tab.0.right/33.23.1407.877@33.23.1407.877" timestamp="1593878128398" />
     <state x="443" y="123" key="SettingsEditor" timestamp="1594022333191">
       <screen x="27" y="23" width="1413" height="877" />
     </state>
     <state x="443" y="123" key="SettingsEditor/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594022333191" />
-    <state x="640" y="224" key="Vcs.Push.Dialog.v2" timestamp="1594026087991">
+    <state x="640" y="224" key="Vcs.Push.Dialog.v2" timestamp="1594026914401">
       <screen x="27" y="23" width="1413" height="877" />
     </state>
-    <state x="640" y="224" key="Vcs.Push.Dialog.v2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026087991" />
-    <state x="1007" y="408" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594026848720">
+    <state x="640" y="224" key="Vcs.Push.Dialog.v2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026914401" />
+    <state x="1007" y="408" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594027537248">
       <screen x="27" y="23" width="1413" height="877" />
     </state>
-    <state x="1007" y="408" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026848720" />
+    <state x="1007" y="408" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027537248" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
