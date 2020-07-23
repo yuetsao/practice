@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mashibing/VolatileReference1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mashibing/juc/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mashibing/juc/HelloVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mashibing/juc/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mashibing/juc/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mashibing/juc/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mashibing/juc/ValatileReference2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/c_001/T.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mashibing/juc/c_001/T.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +142,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -156,13 +162,13 @@
       <recent name="$PROJECT_DIR$/src/gof23/factorymethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.T">
-    <configuration name="CreateThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mashibing.juc.c_000.CreateThread" />
+  <component name="RunManager" selected="Application.ValatileReference2">
+    <configuration name="HelloVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mashibing.juc.HelloVolatile" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mashibing.juc.c_000.*" />
+          <option name="PATTERN" value="mashibing.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleepYieldJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mashibing.juc.c_000.SleepYieldJoin" />
+    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mashibing.juc.T1" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mashibing.juc.c_000.*" />
+          <option name="PATTERN" value="mashibing.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mashibing.juc.c_001.T" />
+    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mashibing.juc.T2" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mashibing.juc.c_001.*" />
+          <option name="PATTERN" value="mashibing.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T01_WhatIsThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mashibing.juc.c_000.T01_WhatIsThread" />
+    <configuration name="ValatileReference2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mashibing.juc.ValatileReference2" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mashibing.juc.c_000.*" />
+          <option name="PATTERN" value="mashibing.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mashibing.juc.c_000.ThreadState" />
+    <configuration name="VolatileReference1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mashibing.VolatileReference1" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mashibing.juc.c_000.*" />
+          <option name="PATTERN" value="mashibing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,19 +229,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T01_WhatIsThread" />
-      <item itemvalue="Application.CreateThread" />
-      <item itemvalue="Application.SleepYieldJoin" />
-      <item itemvalue="Application.ThreadState" />
-      <item itemvalue="Application.T" />
+      <item itemvalue="Application.T1" />
+      <item itemvalue="Application.T2" />
+      <item itemvalue="Application.HelloVolatile" />
+      <item itemvalue="Application.VolatileReference1" />
+      <item itemvalue="Application.ValatileReference2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T" />
-        <item itemvalue="Application.ThreadState" />
-        <item itemvalue="Application.SleepYieldJoin" />
-        <item itemvalue="Application.CreateThread" />
-        <item itemvalue="Application.T01_WhatIsThread" />
+        <item itemvalue="Application.ValatileReference2" />
+        <item itemvalue="Application.VolatileReference1" />
+        <item itemvalue="Application.HelloVolatile" />
+        <item itemvalue="Application.T2" />
+        <item itemvalue="Application.T1" />
       </list>
     </recent_temporary>
   </component>
@@ -334,14 +340,12 @@
       <workItem from="1582082107091" duration="25795000" />
       <workItem from="1582525330338" duration="2896000" />
       <workItem from="1582553036009" duration="1904000" />
-      <workItem from="1593876371059" duration="8000000" />
-    </task>
-    <task id="LOCAL-00041" summary="Class对象">
-      <created>1545292109886</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1545292109886</updated>
+      <workItem from="1593876371059" duration="11520000" />
+      <workItem from="1594621025121" duration="55000" />
+      <workItem from="1594621100118" duration="35000" />
+      <workItem from="1594621154215" duration="2436000" />
+      <workItem from="1595484381300" duration="7349000" />
+      <workItem from="1595495128087" duration="1650000" />
     </task>
     <task id="LOCAL-00042" summary="Class对象">
       <created>1545292257875</created>
@@ -679,7 +683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594026912848</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="feat:volatile保证线程可见性和和禁止指令重排序">
+      <created>1594027546236</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1594027546236</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TodoView">
@@ -723,47 +734,87 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:volatile保证线程可见性和和禁止指令重排序" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="369" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594029164204">
+      <screen x="27" y="23" width="1413" height="877" />
+    </state>
+    <state x="369" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594029164204" />
     <state x="1066" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1594021105323">
       <screen x="27" y="23" width="1413" height="877" />
     </state>
     <state x="1066" y="186" key="#com.intellij.ide.util.MemberChooser/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594021105323" />
     <state x="548" y="178" key="#com.intellij.ide.util.MemberChooser/30.23.1410.877@30.23.1410.877" timestamp="1593876730479" />
-    <state x="607" y="88" key="CommitChangelistDialog2" timestamp="1594026912676">
+    <state x="607" y="88" key="CommitChangelistDialog2" timestamp="1594027546106">
       <screen x="27" y="23" width="1413" height="877" />
     </state>
-    <state x="607" y="88" key="CommitChangelistDialog2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026912676" />
-    <state width="1324" height="236" key="GridCell.Tab.0.bottom" timestamp="1594027527321">
+    <state x="607" y="88" key="CommitChangelistDialog2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027546106" />
+    <state width="1324" height="251" key="GridCell.Tab.0.bottom" timestamp="1595493855465">
       <screen x="1440" y="23" width="1366" height="923" />
     </state>
     <state width="1324" height="236" key="GridCell.Tab.0.bottom/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027527321" />
+    <state width="1324" height="251" key="GridCell.Tab.0.bottom/1440.23.1366.923/28.23.1412.877@1440.23.1366.923" timestamp="1595491807189" />
+    <state width="1324" height="251" key="GridCell.Tab.0.bottom/1440.23.1366.923/29.23.1411.877@1440.23.1366.923" timestamp="1595493855465" />
     <state width="1368" height="236" key="GridCell.Tab.0.bottom/33.23.1407.877@33.23.1407.877" timestamp="1593878128398" />
-    <state width="1324" height="236" key="GridCell.Tab.0.center" timestamp="1594027527320">
+    <state width="1368" height="236" key="GridCell.Tab.0.bottom/41.23.1399.877@41.23.1399.877" timestamp="1594491880858" />
+    <state width="1324" height="251" key="GridCell.Tab.0.center" timestamp="1595493855464">
       <screen x="1440" y="23" width="1366" height="923" />
     </state>
     <state width="1324" height="236" key="GridCell.Tab.0.center/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027527320" />
+    <state width="1324" height="251" key="GridCell.Tab.0.center/1440.23.1366.923/28.23.1412.877@1440.23.1366.923" timestamp="1595491807188" />
+    <state width="1324" height="251" key="GridCell.Tab.0.center/1440.23.1366.923/29.23.1411.877@1440.23.1366.923" timestamp="1595493855464" />
     <state width="1368" height="236" key="GridCell.Tab.0.center/33.23.1407.877@33.23.1407.877" timestamp="1593878128397" />
-    <state width="1324" height="236" key="GridCell.Tab.0.left" timestamp="1594027527319">
+    <state width="1368" height="236" key="GridCell.Tab.0.center/41.23.1399.877@41.23.1399.877" timestamp="1594491880858" />
+    <state width="1324" height="251" key="GridCell.Tab.0.left" timestamp="1595493855463">
       <screen x="1440" y="23" width="1366" height="923" />
     </state>
     <state width="1324" height="236" key="GridCell.Tab.0.left/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027527319" />
+    <state width="1324" height="251" key="GridCell.Tab.0.left/1440.23.1366.923/28.23.1412.877@1440.23.1366.923" timestamp="1595491807187" />
+    <state width="1324" height="251" key="GridCell.Tab.0.left/1440.23.1366.923/29.23.1411.877@1440.23.1366.923" timestamp="1595493855463" />
     <state width="1368" height="236" key="GridCell.Tab.0.left/33.23.1407.877@33.23.1407.877" timestamp="1593878128397" />
-    <state width="1324" height="236" key="GridCell.Tab.0.right" timestamp="1594027527320">
+    <state width="1368" height="236" key="GridCell.Tab.0.left/41.23.1399.877@41.23.1399.877" timestamp="1594491880857" />
+    <state width="1324" height="251" key="GridCell.Tab.0.right" timestamp="1595493855465">
       <screen x="1440" y="23" width="1366" height="923" />
     </state>
     <state width="1324" height="236" key="GridCell.Tab.0.right/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027527320" />
+    <state width="1324" height="251" key="GridCell.Tab.0.right/1440.23.1366.923/28.23.1412.877@1440.23.1366.923" timestamp="1595491807188" />
+    <state width="1324" height="251" key="GridCell.Tab.0.right/1440.23.1366.923/29.23.1411.877@1440.23.1366.923" timestamp="1595493855465" />
     <state width="1368" height="236" key="GridCell.Tab.0.right/33.23.1407.877@33.23.1407.877" timestamp="1593878128398" />
-    <state x="443" y="123" key="SettingsEditor" timestamp="1594022333191">
-      <screen x="27" y="23" width="1413" height="877" />
+    <state width="1368" height="236" key="GridCell.Tab.0.right/41.23.1399.877@41.23.1399.877" timestamp="1594491880858" />
+    <state width="1324" height="302" key="GridCell.Tab.1.bottom" timestamp="1595491767995">
+      <screen x="1440" y="23" width="1366" height="923" />
+    </state>
+    <state width="1324" height="302" key="GridCell.Tab.1.bottom/1440.23.1366.923/28.23.1412.877@1440.23.1366.923" timestamp="1595491767995" />
+    <state width="1324" height="302" key="GridCell.Tab.1.center" timestamp="1595491767993">
+      <screen x="1440" y="23" width="1366" height="923" />
+    </state>
+    <state width="1324" height="302" key="GridCell.Tab.1.center/1440.23.1366.923/28.23.1412.877@1440.23.1366.923" timestamp="1595491767993" />
+    <state width="1324" height="302" key="GridCell.Tab.1.left" timestamp="1595491767993">
+      <screen x="1440" y="23" width="1366" height="923" />
+    </state>
+    <state width="1324" height="302" key="GridCell.Tab.1.left/1440.23.1366.923/28.23.1412.877@1440.23.1366.923" timestamp="1595491767993" />
+    <state width="1324" height="302" key="GridCell.Tab.1.right" timestamp="1595491767994">
+      <screen x="1440" y="23" width="1366" height="923" />
+    </state>
+    <state width="1324" height="302" key="GridCell.Tab.1.right/1440.23.1366.923/28.23.1412.877@1440.23.1366.923" timestamp="1595491767994" />
+    <state x="443" y="136" key="SettingsEditor" timestamp="1595495100677">
+      <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state x="443" y="123" key="SettingsEditor/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594022333191" />
-    <state x="640" y="224" key="Vcs.Push.Dialog.v2" timestamp="1594026914401">
+    <state x="443" y="136" key="SettingsEditor/1440.23.1366.923/29.23.1411.877@1440.23.1366.923" timestamp="1595495100677" />
+    <state x="443" y="123" key="SettingsEditor/36.23.1404.877@36.23.1404.877" timestamp="1594621134496" />
+    <state x="236" y="130" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1594621508282" />
+    <state x="640" y="224" key="Vcs.Push.Dialog.v2" timestamp="1594027547383">
       <screen x="27" y="23" width="1413" height="877" />
     </state>
-    <state x="640" y="224" key="Vcs.Push.Dialog.v2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594026914401" />
-    <state x="1007" y="408" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594027537248">
-      <screen x="27" y="23" width="1413" height="877" />
+    <state x="640" y="224" key="Vcs.Push.Dialog.v2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027547383" />
+    <state x="1007" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595498253211">
+      <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state x="1007" y="408" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.23.1366.923/27.23.1413.877@1440.23.1366.923" timestamp="1594027537248" />
+    <state x="1007" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.23.1366.923/29.23.1411.877@1440.23.1366.923" timestamp="1595498253211" />
+    <state x="403" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1594621418797">
+      <screen x="37" y="23" width="1403" height="877" />
+    </state>
+    <state x="403" y="213" width="670" height="676" key="search.everywhere.popup/37.23.1403.877@37.23.1403.877" timestamp="1594621418797" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
