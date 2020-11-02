@@ -1,4 +1,4 @@
-package mashibing;
+package mashibing.juc;
 /**
  * @Title: VolatileReference1
  * @Description: TODO(用一句话描述该文件做什么)
