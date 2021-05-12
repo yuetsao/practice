@@ -1,6 +1,10 @@
 package XD;
 
 import java.io.Serializable;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class YueArryList implements Serializable {
 
@@ -17,6 +21,7 @@ public class YueArryList implements Serializable {
 
     transient Object [] elementData;
 
+    Map<String, String> hashMap = Collections.synchronizedMap(new HashMap<String, String>());
     public YueArryList () {
         this.elementData = EMPTY_ELEMENT_DATA;
     }

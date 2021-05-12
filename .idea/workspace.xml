@@ -35,18 +35,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="feat: algorithms2.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/FilePathPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/TestStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/TryWithResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/YueArryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic/AndOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic/SwapTwoInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic/TryAndReturn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="feat: XD">
+      <change afterPath="$PROJECT_DIR$/src/main/java/XD/ThreadDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XD/ThreadMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XD/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XD/YueHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XD/chapter7/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XD/chapter7/ReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XD/chapter7/UnreentrantLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/XD/YueArryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XD/YueArryList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +146,20 @@
       <recent name="thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dog">
+  <component name="RunManager" selected="Application.DeadLock">
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XD.chapter7.DeadLock" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="XD.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="XD.Dog" />
       <module name="practice" />
@@ -188,21 +199,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryAndReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.TryAndReturn" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryWithResource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="XD.TryWithResource" />
+    <configuration name="ThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XD.ThreadMain" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -214,20 +212,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.TryAndReturn" />
-      <item itemvalue="Application.TryWithResource" />
       <item itemvalue="Application.FilePathPrint" />
       <item itemvalue="Application.TestStr" />
       <item itemvalue="Application.Dog" />
+      <item itemvalue="Application.ThreadMain" />
+      <item itemvalue="Application.DeadLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLock" />
+        <item itemvalue="Application.ThreadMain" />
         <item itemvalue="Application.Dog" />
         <item itemvalue="Application.TestStr" />
         <item itemvalue="Application.FilePathPrint" />
-        <item itemvalue="Application.TryWithResource" />
-        <item itemvalue="Application.TryAndReturn" />
       </list>
     </recent_temporary>
   </component>
@@ -338,14 +349,8 @@
       <workItem from="1620312737487" duration="1010000" />
       <workItem from="1620568646034" duration="639000" />
       <workItem from="1620656138879" duration="16473000" />
-      <workItem from="1620748690387" duration="2272000" />
-    </task>
-    <task id="LOCAL-00048" summary="深入剖析tomcat源代码">
-      <created>1550909846265</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1550909846265</updated>
+      <workItem from="1620748690387" duration="11086000" />
+      <workItem from="1620798015883" duration="9290000" />
     </task>
     <task id="LOCAL-00049" summary="深入剖析tomcat源代码">
       <created>1551757126410</created>
@@ -683,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610253839639</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="feat: XD">
+      <created>1620751167874</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1620751167874</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TodoView">
@@ -711,7 +723,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 深浅克隆原型模式" />
     <MESSAGE value="feat: 单例模式" />
     <MESSAGE value="feat: 适配器模式两种（类适配器，对象适配器）" />
     <MESSAGE value="feat: 适配器模式实例" />
@@ -736,7 +747,8 @@
     <MESSAGE value="feat: sync" />
     <MESSAGE value="feat: juc" />
     <MESSAGE value="feat: algorithms2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: algorithms2.1" />
+    <MESSAGE value="feat: XD" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: XD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
