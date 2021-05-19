@@ -36,16 +36,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="feat: XD">
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/OperFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +118,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -351,14 +342,7 @@
       <workItem from="1620568646034" duration="639000" />
       <workItem from="1620656138879" duration="16473000" />
       <workItem from="1620748690387" duration="11086000" />
-      <workItem from="1620798015883" duration="39046000" />
-    </task>
-    <task id="LOCAL-00050" summary="webservice">
-      <created>1555926519653</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1555926519654</updated>
+      <workItem from="1620798015883" duration="39861000" />
     </task>
     <task id="LOCAL-00051" summary="下划线转驼峰">
       <created>1556009927345</created>
@@ -696,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620823538517</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="feat: XD">
+      <created>1621436327728</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1621436327728</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TodoView">
