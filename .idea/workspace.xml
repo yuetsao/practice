@@ -35,488 +35,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="feat: XD">
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoaderLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/LazyLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/LoadClassByHand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Simple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/WayToRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/YueClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/YueClassLoader2.java" afterDir="false" />
+    <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="test: loading -&gt; linking ( verification -&gt; preparation&#10;-&gt; resolution) -&gt; initializing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoader2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoadingProcedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/TestHalfInitializing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GenerateCharSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/ClassLoaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/MyTest6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/Simple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JVMTest/classLoader/TestIPlusPlus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReferenceTest/TestWeakHashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReferenceTest/TestWeakReference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/FilePathPrint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/Generic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/OperFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/JDKNEW/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/TestStr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/ThreadDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/ThreadMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/TryWithResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/YueArryList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/YueHashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/chapter7/DeadLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/chapter7/ReentrantLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XD/chapter7/UnreentrantLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/InsertionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotation/CyAnnotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotation/CyField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotation/CyStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotation/Demo02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotation/Demo03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotation/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aspectj/HelloWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aspectj/MyAspectJDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/AndOR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/MemberVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/SwapTwoInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/TestMemberVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/TryAndReturn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colections/GenericsAndUpcasting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colections/PrintingContainers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colections/SetOfInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colections/SetOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrency/ConcurrencyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/endcode/Endcode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/equals/Sample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/FullConstructors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/TestRetrunInException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geyiming/BadSuspend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geyiming/GoodSuspend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geyiming/IntLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geyiming/JoinMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geyiming/SimpleWN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/Singleton/DSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/Singleton/EnumSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/Singleton/InnerSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/Singleton/LazySingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/Singleton/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/Singleton/TestUML.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/abstractfactory/CarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/abstractfactory/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/abstractfactory/Engine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/abstractfactory/LowCarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/abstractfactory/LuxuryCarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/abstractfactory/Seat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/abstractfactory/Tyre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/adapter/Adaptee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/adapter/Adapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/adapter/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/adapter/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/bridge/Brand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/bridge/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/bridge/Computer2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/bridge/Desktop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/bridge/Laptop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/builder/AirShip.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/builder/AirShipBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/builder/AirShipDirector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/builder/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/builder/MyAirShipBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/builder/MyAirShipDirector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/chainofresponsibility/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/chainofresponsibility/Director.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/chainofresponsibility/GeneralManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/chainofresponsibility/Leader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/chainofresponsibility/LeaveRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/chainofresponsibility/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/commond/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/commond/Commond.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/commond/Invoke.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/commond/Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/composite/AbstractFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/composite/Compoent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/decorator/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/decorator/ICar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/dynamicProxy/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/dynamicProxy/ProxyStar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/dynamicProxy/RealStar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/dynamicProxy/Star.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/dynamicProxy/StarHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/dynamicProxy/dynamicProxy.umr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/factorymethod/Audi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/factorymethod/AudiFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/factorymethod/Benz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/factorymethod/BenzFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/factorymethod/Byd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/factorymethod/BydFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/factorymethod/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/factorymethod/CarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/factorymethod/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/flyweight/ChessFlyWeight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/flyweight/ChessFlyWeightFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/flyweight/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/flyweight/Coordinate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/iterator/ConcreteMyAggregate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/iterator/MyIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/javaseobserver/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/javaseobserver/ConcreteSubject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/javaseobserver/ObserverA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/DataBaseLoggerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/DatabaseLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/FileLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/FileLoggerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/liuwei/abstractFactory/LoggerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/mediator/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/mediator/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/mediator/Development.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/mediator/Finacial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/mediator/Market.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/mediator/Mediator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/mediator/President.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/memento/CareTake.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/memento/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/memento/Emp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/memento/EmpMemento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/observer/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/observer/ConcreteSubject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/observer/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/observer/ObserverA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/observer/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/prototype/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/prototype/Sheep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/simplefactory/Audi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/simplefactory/Byd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/simplefactory/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/simplefactory/CarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/simplefactory/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/simplefactory/Client2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/state/BookedState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/state/CheckingState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/state/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/state/Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/state/FreeState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/state/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/staticProxy/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/staticProxy/ProxyStar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/staticProxy/RealStar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/staticProxy/Star.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/staticProxy/staticProxy.umr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/strategy/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/strategy/Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/strategy/NewCustomerFewStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/strategy/NewCustomerManyStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/strategy/OldCustemerManyStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/strategy/OldCustomerFewStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/strategy/Strategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/template/BankTemplateMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/template/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/AbstractBlackHuman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/AbstractWhiteHuman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/AbstractYellowHuman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/FemaleBlackHuman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/FemaleHumanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/FemaleWhiteHuman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/FemaleYellowHuman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/HumanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/MaleBlackHuman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/MaleHumanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/MaleWhiteHuman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/MaleYellowHuman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/abstractFactory/NvWa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/extendsTemplate/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/extendsTemplate/HummerH1Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/extendsTemplate/HummerH2Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/extendsTemplate/HummerModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/ChinaTopDnsServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/DnsServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/Recorder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/SHDnsServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof23/zen/zenObserver/TopDnsServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iotest/Copy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iotest/DirCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iotest/DirDemo01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iotest/DirDemo02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iotest/DirDemo03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iotest/TestEnDeCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/LeetCode1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Leetcode2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory/abstractFactory.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/Button.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/ComboBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/SkinFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/SkinFactory.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/SpringButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/SpringComoBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/SpringSkinFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/SpringTextField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/SummerButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/SummerComboBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/SummerSkinFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/SummerTextField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/abstractFactory1/TextField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/adapter/CarController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/adapter/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/adapter/PoliceCarAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/adapter/PoliceLamp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/adapter/PoliceSound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/adapter/adapter_class.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/adapter/adapter_instance.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/adapter/adapter_obj.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/adapter/default_adapter.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/adapter/two_point_adapter.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/BMPImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/GIFImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/Image.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/ImageImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/JPGImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/LinuxImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/Matrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/PNGImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/UnixImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/WindowsImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/bridge.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/bridge/bridge1.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/builder/builder.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/builder1/Actor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/builder1/ActorBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/builder1/ActorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/builder1/AngelBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/builder1/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/builder1/DevilBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/builder1/HeroBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/builder1/builder1.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/command/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/command/DisplayHelpClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/command/ExitCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/command/FunctionButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/command/HelpCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/command/SystemExitClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/command/command.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/composite/AbstractFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/composite/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/composite/Folder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/composite/ImageFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/composite/TextFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/composite/VideoFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/composite/composite.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/decorator/BlackBorderDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/decorator/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/decorator/Component.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/decorator/ComponentDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/decorator/ListBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/decorator/ScrollBarDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/decorator/TextBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/decorator/Window.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/decorator/decorator.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/facade/CipherMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/facade/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/facade/EncryptFacade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/facade/FileReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/facade/FileWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/facade/facade.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/factoryMethod/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/factoryMethod/factoryMethod.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/factoryMethod1/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/factoryMethod1/DataBaseLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/factoryMethod1/DatabaseLoggerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/factoryMethod1/FileLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/factoryMethod1/FileLoggerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/factoryMethod1/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/factoryMethod1/LoggerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/factoryMethod1/factoryMethod.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/BlackIgoChessman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/IgoChessman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/IgoChessmanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/WhiteIgoChessman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/flyweight/flyweight.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/interpretor/AbstractNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/interpretor/ActionNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/interpretor/AndNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/interpretor/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/interpretor/DirectionNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/interpretor/DistanceNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/interpretor/InstructionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/interpretor/SentenceNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/interpretor/interpretor.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/prototype/prototype.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/prototype1/Attachment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/prototype1/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/prototype1/WeeklyLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/prototype1/prototype.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/proxy/AccessValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/proxy/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/proxy/ProxySearcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/proxy/RealSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/proxy/Searcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/proxy/proxy.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/responsibility/Approver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/responsibility/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/responsibility/Congress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/responsibility/Director.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/responsibility/President.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/responsibility/PurchaseRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/responsibility/VicePresident.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/responsibility/responsibility.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory/ConcreteProductA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory/ConcreteProductB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory/simpleFactory.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory1/Chart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory1/ChartFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory1/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory1/HistogramChart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory1/LineChart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory1/PieChart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory1/XMLUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory1/config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/simpleFactory1/simpleFactory1.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/singleton/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/singleton/eagerSingleton/EagerSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/singleton/eagerSingleton/eager.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/singleton/lazysingleton/IoDHSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/singleton/lazysingleton/LazySingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/singleton/lazysingleton/lazy.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/liuwei/singleton/singleton.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/AtomicIntegerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/AtomicVsSyncVsLongAdder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/CountDownLatch1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/CreateThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/CyclicBarrier1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/HelloVolatile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/Mgr03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/PhaserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/ReadWriteLockTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/ReentrantLocak2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/ReentrantLock3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/ReentrantLockTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/RunAndStart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/SingleTon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/T1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/T2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/TestExtendReentry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/TestReentry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/TestSyncWhenException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/TestVolatile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/Unsafe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/ValatileReference2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/VolatileReference1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/c_000/CreateThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/c_000/SleepYieldJoin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/c_000/T01_WhatIsThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/c_000/ThreadState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mashibing/juc/c_001/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nio/TestBuffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nio/TestChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onjava8/java8/Soft.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onjava8/java8/Strategize.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onjava8/java8/Strategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onjava8/java8/Unrelated.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onjava8/testlambda/Curry3Args.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onjava8/testlambda/IntCall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onjava8/testlambda/Myfunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onjava8/testlambda/RecursiveFactorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onjava8/testlambda/TestLambda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymophism/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymophism/RandShapeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymophism/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymophism/Shapes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymophism/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymophism/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflections/Bean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflections/Demo01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflections/Demo02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflections/Demo03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflections/ToyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/socket/MyServerSocket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stringtool/Tool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testsub/Testsub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Adventure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Apply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Base.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Bath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/CADSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Chess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/CovariantReturn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Detergent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/DotNew.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/DotThis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/ExplicitStatic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/FieldAccess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/FinalData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/HorrorShow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Lunch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Mugs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Music.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Orc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Parcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Parcel3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Parcel7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/PassObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/PrivateOverride.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/RandomWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/ReferenceCounting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Reflection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Sequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/SprinklerSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/StaticInitializtion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/TestRandom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Transmogrify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/URShift.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking/Wind.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/CRacer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/CallableDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/EventChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/Happ12306.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/IntGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/Joining.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/LambdaTest01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/LambdaTest02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/LambdaTest03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/LambdaThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/Liftoff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/OrnamentalGarden.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/SimpleDaeam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/SimplePriorities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/StartThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/StaticProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/SynBlock01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/TestLambda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/TestSingelThreadExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/TestThreadLocal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/UncaughtExeceptionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/transienttest/TransientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webservice/MySocketFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webservice/TestWebService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/AbstractApplicationContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/ApplicationContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/AutoWire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/BeanCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/BeanCreatorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/ByNameAutoWire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/DataElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/ElementReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/ElementReaderImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/NoAutoWire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/RefElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xmlParser/ValueElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoaderLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoaderLevel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -618,9 +144,9 @@
       <recent name="thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WayToRun">
-    <configuration name="LazyLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.LazyLoading" />
+  <component name="RunManager" selected="Application.TestHalfInitializing">
+    <configuration name="ClassLoader2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.ClassLoader2" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -632,8 +158,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadClassByHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.LoadClassByHand" />
+    <configuration name="ClassLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.ClassLoading" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testJVM.loadclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassLoadingProcedure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.ClassLoadingProcedure" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testJVM.loadclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHalfInitializing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.TestHalfInitializing" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -647,32 +199,6 @@
     </configuration>
     <configuration name="WayToRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.WayToRun" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testJVM.loadclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YueClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.YueClassLoader" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testJVM.loadclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YueClassLoader2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.YueClassLoader2" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -698,19 +224,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LoadClassByHand" />
-      <item itemvalue="Application.YueClassLoader" />
-      <item itemvalue="Application.LazyLoading" />
-      <item itemvalue="Application.YueClassLoader2" />
       <item itemvalue="Application.WayToRun" />
+      <item itemvalue="Application.ClassLoading" />
+      <item itemvalue="Application.ClassLoader2" />
+      <item itemvalue="Application.ClassLoadingProcedure" />
+      <item itemvalue="Application.TestHalfInitializing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestHalfInitializing" />
+        <item itemvalue="Application.ClassLoadingProcedure" />
+        <item itemvalue="Application.ClassLoader2" />
+        <item itemvalue="Application.ClassLoading" />
         <item itemvalue="Application.WayToRun" />
-        <item itemvalue="Application.YueClassLoader2" />
-        <item itemvalue="Application.LazyLoading" />
-        <item itemvalue="Application.YueClassLoader" />
-        <item itemvalue="Application.LoadClassByHand" />
       </list>
     </recent_temporary>
   </component>
@@ -827,14 +353,7 @@
       <workItem from="1621443117231" duration="5955000" />
       <workItem from="1621841186773" duration="1374000" />
       <workItem from="1621842635476" duration="3680000" />
-      <workItem from="1621846346281" duration="19089000" />
-    </task>
-    <task id="LOCAL-00053" summary="测试classLoader">
-      <created>1561341953856</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1561341953857</updated>
+      <workItem from="1621846346281" duration="24751000" />
     </task>
     <task id="LOCAL-00054" summary="测试classLoader">
       <created>1561341966542</created>
@@ -1172,7 +691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621847158880</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="rebuild: 去除之前的所有代码，以后写代码必须干干净净完全理解">
+      <created>1621871263640</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1621871263640</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1200,8 +726,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 单例模式" />
-    <MESSAGE value="feat: 适配器模式两种（类适配器，对象适配器）" />
     <MESSAGE value="feat: 适配器模式实例" />
     <MESSAGE value="feat: 缺省适配器UML类图" />
     <MESSAGE value="feat: 双向适配器模式" />
@@ -1225,7 +749,9 @@
     <MESSAGE value="feat: juc" />
     <MESSAGE value="feat: algorithms2.1" />
     <MESSAGE value="feat: XD" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: XD" />
+    <MESSAGE value="rebuild: 去除之前的所有代码，以后写代码必须干干净净完全理解" />
+    <MESSAGE value="test: loading -&gt; linking ( verification -&gt; preparation&#10;-&gt; resolution) -&gt; initializing" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: loading -&gt; linking ( verification -&gt; preparation&#10;-&gt; resolution) -&gt; initializing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
