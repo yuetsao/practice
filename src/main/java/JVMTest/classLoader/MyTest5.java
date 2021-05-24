@@ -21,4 +21,5 @@ interface MyParent5 {
 interface MyChild5 extends MyParent5 {
     public static int b = 6;
     public static final int B = new Random().nextInt(4);
+
 }

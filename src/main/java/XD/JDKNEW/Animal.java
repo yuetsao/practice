@@ -16,8 +16,8 @@ public interface Animal {
         System.out.println("这个是静态方法");
     }
 
-    private void defaultPay() {
-    }
+//    private void defaultPay() {
+//    }
 
 
 }
