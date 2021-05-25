@@ -36,13 +36,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="test: loading -&gt; linking ( verification -&gt; preparation&#10;-&gt; resolution) -&gt; initializing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoader2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoadingProcedure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/TestHalfInitializing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/CacheLinePadding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/CacheLinePadding2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Disorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/WriteCombining.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoaderLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoaderLevel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,13 +138,14 @@
       <recent name="$PROJECT_DIR$/src/gof23/Singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testJVM.loadclass" />
       <recent name="liuwei.bridge" />
       <recent name="thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestHalfInitializing">
-    <configuration name="ClassLoader2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.ClassLoader2" />
+  <component name="RunManager" selected="Application.Disorder">
+    <configuration name="CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.CacheLinePadding" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.ClassLoading" />
+    <configuration name="CacheLinePadding2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.CacheLinePadding2" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -171,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassLoadingProcedure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.ClassLoadingProcedure" />
+    <configuration name="Disorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.Disorder" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -197,8 +196,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WayToRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.WayToRun" />
+    <configuration name="WriteCombining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.WriteCombining" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -224,19 +223,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WayToRun" />
-      <item itemvalue="Application.ClassLoading" />
-      <item itemvalue="Application.ClassLoader2" />
-      <item itemvalue="Application.ClassLoadingProcedure" />
       <item itemvalue="Application.TestHalfInitializing" />
+      <item itemvalue="Application.CacheLinePadding2" />
+      <item itemvalue="Application.CacheLinePadding" />
+      <item itemvalue="Application.WriteCombining" />
+      <item itemvalue="Application.Disorder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Disorder" />
+        <item itemvalue="Application.WriteCombining" />
+        <item itemvalue="Application.CacheLinePadding2" />
+        <item itemvalue="Application.CacheLinePadding" />
         <item itemvalue="Application.TestHalfInitializing" />
-        <item itemvalue="Application.ClassLoadingProcedure" />
-        <item itemvalue="Application.ClassLoader2" />
-        <item itemvalue="Application.ClassLoading" />
-        <item itemvalue="Application.WayToRun" />
       </list>
     </recent_temporary>
   </component>
@@ -353,21 +352,7 @@
       <workItem from="1621443117231" duration="5955000" />
       <workItem from="1621841186773" duration="1374000" />
       <workItem from="1621842635476" duration="3680000" />
-      <workItem from="1621846346281" duration="24751000" />
-    </task>
-    <task id="LOCAL-00054" summary="测试classLoader">
-      <created>1561341966542</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1561341966542</updated>
-    </task>
-    <task id="LOCAL-00055" summary="concurentcy">
-      <created>1566029616478</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1566029616479</updated>
+      <workItem from="1621846346281" duration="27411000" />
     </task>
     <task id="LOCAL-00056" summary="concurentcy">
       <created>1567408459764</created>
@@ -698,7 +683,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621871263640</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="test: loading -&gt; linking ( verification -&gt; preparation&#10;-&gt; resolution) -&gt; initializing">
+      <created>1621878036811</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1621878036811</updated>
+    </task>
+    <task id="LOCAL-00104" summary="test: loading -&gt; linking ( verification -&gt; preparation&#10;-&gt; resolution) -&gt; initializing">
+      <created>1621878169128</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1621878169128</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TodoView">
