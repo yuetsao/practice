@@ -1,4 +1,4 @@
-package testJVM.loadclass;
+package com.yuetsao.testJVM.loadclass;
 
 /**
  * @ClassName CacheLinePadding
@@ -7,12 +7,9 @@ package testJVM.loadclass;
  * @Date 2021/5/25 10:17 上午
  * @Version V1.0
  **/
-public class CacheLinePadding {
-    private static class Padding {
-        public volatile long p1,p2,p3,p4,p5,p6,p7;
-    }
+public class CacheLinePadding2 {
 
-    private static class T extends Padding {
+    private static class T {
         public volatile long x = 0L;
     }
 

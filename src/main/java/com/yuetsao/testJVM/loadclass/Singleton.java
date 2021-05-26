@@ -1,4 +1,4 @@
-package testJVM.loadclass;
+package com.yuetsao.testJVM.loadclass;
 
 /**
  * @ClassName Singleton
@@ -11,9 +11,9 @@ public class Singleton {
     //这里变量为什么要加上volatile？
     //见下面的注释！！
     /**
-     *  0 new #2 <testJVM/loadclass/Simple> //这时内存中已经有了
+     *  0 new #2 <com.yuetsao.testJVM/loadclass/Simple> //这时内存中已经有了
      *  3 dup
-     *  4 invokespecial #3 <testJVM/loadclass/Simple.<init>>
+     *  4 invokespecial #3 <com.yuetsao.testJVM/loadclass/Simple.<init>>
      *  7 astore_1 //赋值给simple，这时候 4，7 有可能会发生指令重排序，这样就会使对象有可能处于半初始化状态
      *  8 return
      **/

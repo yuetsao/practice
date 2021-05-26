@@ -35,12 +35,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="test: loading -&gt; linking ( verification -&gt; preparation&#10;-&gt; resolution) -&gt; initializing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/CacheLinePadding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/CacheLinePadding2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Disorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/WriteCombining.java" afterDir="false" />
+    <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="test: CacheLinePadding/WriteCombining/乱序执行的证明">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_axis_axis_1_42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaagent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaagent1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaagent2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/demos/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/gc/HelloGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/ObjectSizeAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/SizeOfAnObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/TestSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/TestTLAB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/CacheLinePadding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/CacheLinePadding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/CacheLinePadding2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/CacheLinePadding2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoader2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/ClassLoader2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoaderLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/ClassLoaderLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/ClassLoading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoadingProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/ClassLoadingProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Disorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/Disorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/LazyLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/LazyLoading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/LoadClassByHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/LoadClassByHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/Simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/TestHalfInitializing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/TestHalfInitializing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/WayToRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/WayToRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/WriteCombining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/WriteCombining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/YueClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/YueClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/YueClassLoader2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/YueClassLoader2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,10 +143,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="project.structure.side.proportion" value="0.4141274" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -143,39 +167,13 @@
       <recent name="thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Disorder">
-    <configuration name="CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.CacheLinePadding" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testJVM.loadclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CacheLinePadding2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.CacheLinePadding2" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testJVM.loadclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HelloGC">
     <configuration name="Disorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.Disorder" />
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.testJVM.loadclass.Disorder" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testJVM.loadclass.*" />
+          <option name="PATTERN" value="com.yuetsao.testJVM.loadclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +181,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHalfInitializing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.TestHalfInitializing" />
+    <configuration name="HelloGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.testJVM.gc.HelloGC" />
       <module name="practice" />
+      <option name="VM_PARAMETERS" value="-XX:-DoEscapeAnalysis -XX:-EliminateAllocations -XX:-UseTLAB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testJVM.loadclass.*" />
+          <option name="PATTERN" value="com.yuetsao.testJVM.gc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SizeOfAnObject" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.testJVM.loadclass.SizeOfAnObject" />
+      <module name="practice" />
+      <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/src/main/java/testJVM/javaagent.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuetsao.testJVM.loadclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.demos.Test" />
+      <module name="practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTLAB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.testJVM.loadclass.TestTLAB" />
+      <module name="practice" />
+      <option name="VM_PARAMETERS" value="-XX:-DoEscapeAnalysis -XX:-EliminateAllocations -XX:-UseTLAB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuetsao.testJVM.loadclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,14 +231,21 @@
       </method>
     </configuration>
     <configuration name="WriteCombining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testJVM.loadclass.WriteCombining" />
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.testJVM.loadclass.WriteCombining" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testJVM.loadclass.*" />
+          <option name="PATTERN" value="com.yuetsao.testJVM.loadclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="practice" />
+      <option name="VM_PARAMETERS" value="-XX:-DoEscapeAnalysis -XX:-EliminateAllocations -XX:-UseTLAB" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,19 +264,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestHalfInitializing" />
-      <item itemvalue="Application.CacheLinePadding2" />
-      <item itemvalue="Application.CacheLinePadding" />
+      <item itemvalue="Application.SizeOfAnObject" />
       <item itemvalue="Application.WriteCombining" />
       <item itemvalue="Application.Disorder" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestTLAB" />
+      <item itemvalue="Application.HelloGC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloGC" />
+        <item itemvalue="Application.TestTLAB" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Disorder" />
         <item itemvalue="Application.WriteCombining" />
-        <item itemvalue="Application.CacheLinePadding2" />
-        <item itemvalue="Application.CacheLinePadding" />
-        <item itemvalue="Application.TestHalfInitializing" />
       </list>
     </recent_temporary>
   </component>
@@ -352,14 +394,7 @@
       <workItem from="1621443117231" duration="5955000" />
       <workItem from="1621841186773" duration="1374000" />
       <workItem from="1621842635476" duration="3680000" />
-      <workItem from="1621846346281" duration="27411000" />
-    </task>
-    <task id="LOCAL-00056" summary="concurentcy">
-      <created>1567408459764</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1567408459765</updated>
+      <workItem from="1621846346281" duration="45114000" />
     </task>
     <task id="LOCAL-00057" summary="concurentcy">
       <created>1568603911371</created>
@@ -697,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621878169128</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="test: CacheLinePadding/WriteCombining/乱序执行的证明">
+      <created>1621912143042</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1621912143042</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TodoView">
@@ -725,7 +767,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 适配器模式实例" />
     <MESSAGE value="feat: 缺省适配器UML类图" />
     <MESSAGE value="feat: 双向适配器模式" />
     <MESSAGE value="feat: 桥接模式" />
@@ -750,7 +791,8 @@
     <MESSAGE value="feat: XD" />
     <MESSAGE value="rebuild: 去除之前的所有代码，以后写代码必须干干净净完全理解" />
     <MESSAGE value="test: loading -&gt; linking ( verification -&gt; preparation&#10;-&gt; resolution) -&gt; initializing" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: loading -&gt; linking ( verification -&gt; preparation&#10;-&gt; resolution) -&gt; initializing" />
+    <MESSAGE value="test: CacheLinePadding/WriteCombining/乱序执行的证明" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: CacheLinePadding/WriteCombining/乱序执行的证明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -776,17 +818,17 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/testJVM/loadclass/YueClassLoader.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/YueClassLoader.java</url>
           <line>18</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/testJVM/loadclass/YueClassLoader.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/YueClassLoader.java</url>
           <line>20</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/testJVM/loadclass/YueClassLoader.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/YueClassLoader.java</url>
           <line>24</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>

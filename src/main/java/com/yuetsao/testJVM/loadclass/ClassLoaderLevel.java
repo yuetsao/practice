@@ -1,4 +1,4 @@
-package testJVM.loadclass;
+package com.yuetsao.testJVM.loadclass;
 
 /***
  * @Author caoyue

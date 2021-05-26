@@ -1,4 +1,4 @@
-package testJVM.loadclass;
+package com.yuetsao.testJVM.loadclass;
 
 /**
  * @ClassName YueClassLoader2
@@ -10,7 +10,6 @@ package testJVM.loadclass;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.lang.reflect.Method;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileChannel.MapMode;
@@ -45,7 +44,7 @@ public class YueClassLoader2 extends ClassLoader {
 
     public static void main(String[] args) throws Exception{
         ClassLoader myClassLoader = new YueClassLoader2();
-        Class clazz = myClassLoader.loadClass("testJVM.loadclass.Simple");
+        Class clazz = myClassLoader.loadClass("com.yuetsao.testJVM.loadclass.Simple");
         Simple simple = (Simple) clazz.newInstance();
         simple.hello();
     }

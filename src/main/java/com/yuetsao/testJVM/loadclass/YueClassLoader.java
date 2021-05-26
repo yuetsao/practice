@@ -1,4 +1,4 @@
-package testJVM.loadclass;
+package com.yuetsao.testJVM.loadclass;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -35,7 +35,7 @@ public class YueClassLoader extends ClassLoader{
 
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
         ClassLoader l = new YueClassLoader();
-        Class clazz = l.loadClass("testJVM.loadclass.Simple");
+        Class clazz = l.loadClass("com.yuetsao.testJVM.loadclass.Simple");
         Simple simple = (Simple) clazz.newInstance();
         simple.hello();
 

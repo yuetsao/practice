@@ -1,4 +1,4 @@
-package testJVM.loadclass;
+package com.yuetsao.testJVM.loadclass;
 
 /**
  * @ClassName LoadClassByHand
@@ -11,7 +11,7 @@ public class LoadClassByHand {
     public static void main(String[] args) throws ClassNotFoundException {
         //应用场景？
         //答：spring 中 ， tomcat 中， JRrebel 插件
-        Class clazz = LoadClassByHand.class.getClassLoader().loadClass("testJVM.loadclass.LoadClassByHand");
+        Class clazz = LoadClassByHand.class.getClassLoader().loadClass("com.yuetsao.testJVM.loadclass.LoadClassByHand");
         System.out.println(clazz.getClassLoader());
         System.out.println(clazz.getName());
     }

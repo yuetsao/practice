@@ -1,4 +1,4 @@
-package testJVM.loadclass;
+package com.yuetsao.testJVM.loadclass;
 
 /**
  * @ClassName ClassLoading
@@ -10,7 +10,7 @@ package testJVM.loadclass;
 public class ClassLoading {
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
         ClassLoader classLoader = new YueClassLoader();
-        Class clazz = classLoader.loadClass("testJVM.loadclass.Simple");
+        Class clazz = classLoader.loadClass("com.yuetsao.testJVM.loadclass.Simple");
         Simple simple = (Simple) clazz.newInstance();
 
         classLoader = null;
@@ -20,7 +20,7 @@ public class ClassLoading {
         classLoader = null;
 
         classLoader = new YueClassLoader();
-        Class clazz1 = classLoader.loadClass("testJVM.loadclass.Simple");
+        Class clazz1 = classLoader.loadClass("com.yuetsao.testJVM.loadclass.Simple");
         System.out.println(clazz1.hashCode());
 
         System.out.println(clazz == clazz1);

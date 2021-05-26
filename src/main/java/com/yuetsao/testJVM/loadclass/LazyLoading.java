@@ -1,4 +1,4 @@
-package testJVM.loadclass;
+package com.yuetsao.testJVM.loadclass;
 
 /**
  * @ClassName LazyLoading
@@ -14,7 +14,7 @@ public class LazyLoading {
 //        X x = new X();
 //        System.out.println(P.i);
 //        System.out.println(P.j);
-        Class.forName("testJVM.loadclass.LazyLoading$P");
+        Class.forName("com.yuetsao.testJVM.loadclass.LazyLoading$P");
     }
 
     public static class P {

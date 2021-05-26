@@ -1,4 +1,4 @@
-package testJVM.loadclass;
+package com.yuetsao.testJVM.loadclass;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -33,10 +33,10 @@ public class ClassLoader2{
 
     public static void main(String[] args) throws ClassNotFoundException {
         MyLoader my = new MyLoader();
-        Class clazz = my.loadClass("testJVM.loadclass.Simple");
+        Class clazz = my.loadClass("com.yuetsao.testJVM.loadclass.Simple");
 
         my = new MyLoader();
-        Class clazz2 = my.loadClass("testJVM.loadclass.Simple");
+        Class clazz2 = my.loadClass("com.yuetsao.testJVM.loadclass.Simple");
 
         System.out.println(clazz == clazz2);
     }
