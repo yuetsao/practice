@@ -36,35 +36,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fafe072-7bb9-4ead-9270-17e53d08a456" name="Default Changelist" comment="test: CacheLinePadding/WriteCombining/乱序执行的证明">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_axis_axis_1_42.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaagent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaagent1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaagent2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/demos/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/gc/HelloGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/ObjectSizeAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/SizeOfAnObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/TestSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/TestTLAB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/algo/LRUBaseLinedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/algo/array/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/algo/array/GenericArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/demos/Singlton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/demos/threadDemo/HelloCreateThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/demos/threadDemo/HelloFiber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/demos/threadDemo/TestThreadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/demos/threadDemo/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/demos/threadDemo/Test_Sleep_yield_join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/designpattern/singleton/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/designpattern/singleton/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/designpattern/singleton/InnerClassSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/designpattern/singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/designpattern/singleton/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/leetcode/MaxOneSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/multithread/TestExceptionReleaseLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/CacheLinePadding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/CacheLinePadding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/CacheLinePadding2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/CacheLinePadding2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoader2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/ClassLoader2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoaderLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/ClassLoaderLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/ClassLoading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/ClassLoadingProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/ClassLoadingProcedure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Disorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/Disorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/LazyLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/LazyLoading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/LoadClassByHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/LoadClassByHand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/Simple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/TestHalfInitializing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/TestHalfInitializing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/WayToRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/WayToRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/WriteCombining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/WriteCombining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/YueClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/YueClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testJVM/loadclass/YueClassLoader2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/YueClassLoader2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuetsao/demos/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +108,24 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/sun/nio/cs/ext/Big5_Solaris.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/CancellationException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/BrokenBarrierException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingDeque.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/LockSupport.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/gc/HelloGC.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinPool.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
@@ -146,7 +156,10 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4141274" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -167,13 +180,14 @@
       <recent name="thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloGC">
-    <configuration name="Disorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuetsao.testJVM.loadclass.Disorder" />
+  <component name="RunManager" selected="Application.MaxOneSum">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.algo.array.Array" />
       <module name="practice" />
+      <option name="VM_PARAMETERS" value="-XX:-DoEscapeAnalysis -XX:-EliminateAllocations -XX:-UseTLAB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuetsao.testJVM.loadclass.*" />
+          <option name="PATTERN" value="com.yuetsao.algo.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,13 +195,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuetsao.testJVM.gc.HelloGC" />
+    <configuration name="GenericArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.algo.array.GenericArray" />
       <module name="practice" />
       <option name="VM_PARAMETERS" value="-XX:-DoEscapeAnalysis -XX:-EliminateAllocations -XX:-UseTLAB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuetsao.testJVM.gc.*" />
+          <option name="PATTERN" value="com.yuetsao.algo.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxOneSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.leetcode.MaxOneSum" />
+      <module name="practice" />
+      <option name="VM_PARAMETERS" value="-XX:-DoEscapeAnalysis -XX:-EliminateAllocations -XX:-UseTLAB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuetsao.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,19 +238,12 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuetsao.demos.Test" />
-      <module name="practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTLAB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuetsao.testJVM.loadclass.TestTLAB" />
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.designpattern.singleton.Test" />
       <module name="practice" />
       <option name="VM_PARAMETERS" value="-XX:-DoEscapeAnalysis -XX:-EliminateAllocations -XX:-UseTLAB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuetsao.testJVM.loadclass.*" />
+          <option name="PATTERN" value="com.yuetsao.designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,12 +251,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteCombining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuetsao.testJVM.loadclass.WriteCombining" />
+    <configuration name="TestExceptionReleaseLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuetsao.multithread.TestExceptionReleaseLock" />
       <module name="practice" />
+      <option name="VM_PARAMETERS" value="-XX:-DoEscapeAnalysis -XX:-EliminateAllocations -XX:-UseTLAB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuetsao.testJVM.loadclass.*" />
+          <option name="PATTERN" value="com.yuetsao.multithread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,19 +287,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.SizeOfAnObject" />
-      <item itemvalue="Application.WriteCombining" />
-      <item itemvalue="Application.Disorder" />
+      <item itemvalue="Application.TestExceptionReleaseLock" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.TestTLAB" />
-      <item itemvalue="Application.HelloGC" />
+      <item itemvalue="Application.Array" />
+      <item itemvalue="Application.GenericArray" />
+      <item itemvalue="Application.MaxOneSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloGC" />
-        <item itemvalue="Application.TestTLAB" />
+        <item itemvalue="Application.MaxOneSum" />
+        <item itemvalue="Application.GenericArray" />
+        <item itemvalue="Application.Array" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Disorder" />
-        <item itemvalue="Application.WriteCombining" />
+        <item itemvalue="Application.TestExceptionReleaseLock" />
       </list>
     </recent_temporary>
   </component>
@@ -394,14 +416,15 @@
       <workItem from="1621443117231" duration="5955000" />
       <workItem from="1621841186773" duration="1374000" />
       <workItem from="1621842635476" duration="3680000" />
-      <workItem from="1621846346281" duration="45114000" />
-    </task>
-    <task id="LOCAL-00057" summary="concurentcy">
-      <created>1568603911371</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1568603911372</updated>
+      <workItem from="1621846346281" duration="56199000" />
+      <workItem from="1622434598414" duration="9046000" />
+      <workItem from="1622548990804" duration="3552000" />
+      <workItem from="1622553444726" duration="116000" />
+      <workItem from="1622553670663" duration="2099000" />
+      <workItem from="1622557047986" duration="7743000" />
+      <workItem from="1622602615804" duration="4868000" />
+      <workItem from="1622949126329" duration="34982000" />
+      <workItem from="1623642865678" duration="3443000" />
     </task>
     <task id="LOCAL-00058" summary="concurentcy">
       <created>1568605002493</created>
@@ -739,7 +762,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621912143042</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="test: CacheLinePadding/WriteCombining/乱序执行的证明">
+      <created>1622011913135</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1622011913135</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TodoView">
@@ -831,6 +861,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/yuetsao/testJVM/loadclass/YueClassLoader.java</url>
           <line>24</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/Queue.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
